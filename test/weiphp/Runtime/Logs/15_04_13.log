@@ -1,0 +1,69 @@
+[ 2015-04-13T22:47:57+08:00 ] 182.254.11.199 /weiphp/index.php?s=/home/weixin/index.html&signature=d979d41bd05c7ab020df1ea7f0e2ac4ff5718883&timestamp=1428936477&nonce=200775669
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000820s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjoIyEQrueZPBQaPX1-_ZNYc' ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000584s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000550s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000516s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: UPDATE `wp_config` SET `value`=-3942 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000396s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1428936477,'2015-04-13 22:47:57','a:11:{s:10:\"ToUserName\";s:15:\"gh_e3fce6e7fc4f\";s:12:\"FromUserName\";s:28:\"oRV3VjoIyEQrueZPBQaPX1-_ZNYc\";s:10:\"CreateTime\";s:10:\"1428936477\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:17:\"MASSSENDJOBFINISH\";s:5:\"MsgID\";s:9:\"204945169\";s:6:\"Status\";s:12:\"send success\";s:10:\"TotalCount\";s:3:\"297\";s:11:\"FilterCount\";s:3:\"297\";s:9:\"SentCount\";s:3:\"297\";s:10:\"ErrorCount\";s:1:\"0\";}','<xml><ToUserName><![CDATA[gh_e3fce6e7fc4f]]></ToUserName>\n<FromUserName><![CDATA[oRV3VjoIyEQrueZPBQaPX1-_ZNYc]]></FromUserName>\n<CreateTime>1428936477</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[MASSSENDJOBFINISH]]></Event>\n<MsgID>204945169</MsgID>\n<Status><![CDATA[send success]]></Status>\n<TotalCount>297</TotalCount>\n<FilterCount>297</FilterCount>\n<SentCount>297</SentCount>\n<ErrorCount>0</ErrorCount>\n</xml>') [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: Content /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000525s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+

@@ -1,0 +1,8 @@
+<table class="tb tb2 nobdb">
+<tbody><tr><th class="partition" colspan="15">{lang ljtieziyj:log_1}</th></tr>
+<tr class="header"><th></th><th>tid</th><th>pid</th><th>{lang ljtieziyj:log_2}</th><th>{lang ljtieziyj:log_3}</th><th>{lang ljtieziyj:log_4}</th></tr>
+<!--{loop $log $key $value}-->
+<tr class="header"><th></th><th>$value['tid']</th><th>$value['pid']</th><th>$value['sendemail']</th><th><!--{eval echo date('Y-m-d H:i:s',$value['sendtime']);}--></th><th><!--{if $value['success']}-->{lang ljtieziyj:log_5}<!--{else}--><font color="red">{lang ljtieziyj:log_6}</font><!--{/if}--></th></tr>
+<!--{/loop}-->
+<tr><td></td><td colspan="15">$paging</td></tr>
+</tbody></table>

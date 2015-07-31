@@ -1,0 +1,212 @@
+<!DOCTYPE>
+<html id="html">
+        <head>
+                <script src="js/jquery.js"></script>
+                </script src="JQmobile/1.3.2/js/jquery.mobile-1.3.2.js"></script>
+                </link href="JQmobile/1.3.2/css/jquery.mobile-1.3.2.css" rel="stylesheet" type="text/css">
+                <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"  rel="stylesheet">
+                <script src="bootstrap/js/bootstrap.js"></script>
+                <script src="JQmobile/1.4.2/js/jquery.mobile-1.4.2.js"></script>
+                <link href="JQmobile/1.4.2/css/jquery.mobile-1.4.2.css" rel="stylesheet" type="text/css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <style>
+                        h1,h2,h3,p{
+                                margin:0;
+                                padding:0;
+                        }
+                        .header{
+                                height:auto;
+                                padding:0.5em;
+                                overflow:hidden;
+                                font-family:"微软雅黑";
+                        }
+                        .header>img{
+                                width:23%;
+                        }
+                        .he_content{
+                                width:50%;
+                                font-size:0.65em;
+                                margin-left:1em;
+                        }
+                        .he_content h1,.he_content p{
+                                margin: 0.4em 0;
+                        }
+                        .user{
+                                width:20%;
+                        }
+                        .user>img{
+                                width:80%;
+                        }
+                        .user>span{
+                                display:block;
+                                width:4em;
+                                margin-right:auto;
+                                margin-left:auto;
+                        }
+                        .left{
+                                height:auto;
+                                float:left;
+                        }
+                        .right{
+                                float:right;
+                        }
+                        .carousel{
+                                width:100%;
+                                height:15em;
+                        }
+                        .carousel-inner>.item>a>img{
+                                width:100%;
+                                height:100%;
+                        }
+                        .test{
+                                display:block;
+                                border: solid 0.2em #3388cc;
+                                font-size:0.625em;
+                                font-family:"微软雅黑";
+                        }
+                        .test>img{
+                                width:20%;
+                        }
+                        .test>div{
+                                width:73%;
+                                margin-left:2em;
+                                float:left;
+                                text-align:left;
+                        }
+                        .test h1{
+                                margin:0.4em 0 0.2em 0;
+                        }
+                        .test p{
+                                margin: 0.5em 0;
+                                font-weight:600;
+                                font-size:1.3em;
+                                color:#aaa;
+                        }
+                        p>span{
+                                color:#000;
+                        }
+                        .stars{
+                                width:40%;
+                                /*background-image:url("img/b1.jpg");*/
+                        }
+                        .star{
+                                width:19%;
+                        }
+                       
+                </style>
+
+        </head>
+        <body>
+                <div data-role="page">
+                        <div class="header" data-role="header">
+                                <img class="left" src="img/talk.png">
+                                <div class="he_content left">
+                                        <h1>kankandaxiao</h1>
+                                        <p>金钱：<span>55金币</span></p>
+                                        <p>名次：<span>第几名</span></p>
+                                </div>
+                                <div class="user right">
+                                        <img class="right" src="img/talk.png">
+                                        <span>金币：5</span>
+                                </div>
+                        </div>
+                        <div class="content" data-role="content">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                                <div class="item active">
+                                                        <a href="#"><img src="img/app_back.jpeg" alt="test1"></a>
+                                                        <div class="carousel-caption">
+                                                                <h3>这是第0个测试</h3>
+                                                        </div>
+                                                </div>
+                                                <div class="item">
+                                                        <a href="#"><img src="img/desktop.jpeg" alt="test2"></a>
+                                                        <div class="carousel-caption">
+                                                            <h3>这是第1个测试</h3>
+                                                        </div>
+                                                </div>
+                                                <div class="item">
+                                                        <a href="#"><img src="img/login.jpg" alt="test3"></a>
+                                                        <div class="carousel-caption">
+                                                            <h3>这是第2个测试</h3>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                </div>
+
+                                <div class="main" data-role="controlgroup" data-type="vertical">
+                                        <a class="test" href="http://www.baidu.com" data-role="button">
+                                                <img class="left" src="img/talk.png">
+                                                <div>
+                                                        <div class="tips right">
+                                                                <p><span class="glyphicon glyphicon-thumbs-up"> 5</span></p>
+                                                                <p><span class="glyphicon glyphicon-comment"> 10</span></p>
+                                                        </div>
+                                                        <h2>Name</h2>
+                                                        <div class=stars>
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                        </div>
+                                                        <p>sadjlkfjlskadjflkjjsalkdjflfi sejflkj slkkdajflk j</p>
+                                                </div>
+                                        </a>
+                                        <a class="test" href="#" data-role="button">
+                                               <img class="left" src="img/talk.png">
+                                                <div>
+                                                        <div class="tips right">
+                                                                <p><span class="glyphicon glyphicon-thumbs-up"> 5</span></p>
+                                                                <p><span class="glyphicon glyphicon-comment"> 10</span></p>
+                                                        </div>
+                                                        <h2>Name</h2>
+                                                        <div class=stars>
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                        </div>
+                                                        <p>sadjlkfjlskadjflkjjsalkdjflfi sejflkj slkkdajflk j</p>
+                                                </div>
+                                        </a>
+                                        <a class="test" href="#" data-role="button">
+                                               <img class="left" src="img/talk.png">
+                                                <div>
+                                                        <div class="tips right">
+                                                                <p><span class="glyphicon glyphicon-thumbs-up"> 5</span></p>
+                                                                <p><span class="glyphicon glyphicon-comment"> 10</span></p>
+                                                        </div>
+                                                        <h2>Name</h2>
+                                                        <div class=stars>
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                                <img class="star" src="img/login1.jpg">
+                                                        </div>
+                                                        <p>sadjlkfjlskadjflkjjsalkdjflfi sejflkj slkkdajflk j</p>
+                                                </div>
+                                        </a>
+                        </div>
+                        <div data-role="footer">
+                        </div>
+                </div>
+
+        </body>
+

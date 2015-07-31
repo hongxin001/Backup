@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection"content="telephone=no, email=no" />
+		<meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="page page1">
+			<h2 class="title"></h2>
+			<img class="qr" src="img/QR_code.jpg"/>
+			<a class="next change" href="javascript:void(0)" data-from="page1" data-to="page2"></a>
+		</div>
+		<div class="page page2">
+			<a class="pre change" href="javascript:void(0)" data-from="page2" data-to="page1"></a>
+			<a class="next change" href="javascript:void(0)" data-from="page2" data-to="page3"></a>
+			<div class="main">
+				<h2 class="title"></h2>
+				<div class="machine">
+					<div class="user">
+						<div class="headpic">
+							<img src=""/>
+						</div>
+						<div class="uesername">哈哈</div>
+					</div>
+					<a class="btn" id="start" href="jacascript:void(0)">开始</a>
+					<a class="btn" id="end" style="display: none;" href="jacascript:void(0)">停止</a>
+				</div>
+			</div>
+			<div class="result">
+				<ul id="result_first">
+				</ul>
+			</div>
+		</div>
+		
+		<div class="page page3">
+			<a class="pre change" href="javascript:void(0)" data-from="page3" data-to="page2"></a>
+			<h2 class="title"></h2>
+			<div class="wrapper">
+				<ul id="result_last">
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

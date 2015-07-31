@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px; }
+
+
+body {
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    text-align: left;
+ }	
+
+li{ list-style: none outside none;}	
+
+a {
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none; }
+
+.warpper{ width: 100%; }
+
+.header{
+	height: 64px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: #3a3a44;
+	margin-bottom: 30px; }
+
+.index-banner{
+	height: 400px;
+	margin: 100px auto 15px; }
+
+.header .head{
+	width: 950px;
+	margin: 0px auto; }
+
+.head .logo{ 
+	float: left;
+	margin-top: 10px; 
+}
+
+.head p{position: relative;
+	top: 35px;
+	color: #FFFFFF;
+	font-size:15px; 
+	font-family:"Microsoft YaHei";
+   }
+
+
+
+.main{
+/*	height:auto!important;
+    height:400px;
+    min-height:400px;*/
+	width:950px;
+	position: relative;
+	margin: 90px auto 40px;
+	box-shadow: 0px 0px 5px #000000;
+	padding-bottom: 30px;
+	background:#FFFFFF url(../img/bk.jpg) no-repeat 140px 70px;
+}
+
+.footer{
+	height: 64px;
+	width: 100%;
+	background-color: #3a3a44;
+	overflow: hidden; 
+	position: relative;
+	margin-top: 40px;}
+
+.foot{
+	width: 950px;
+	margin: 0px auto; }
+
+.footer .logo{ 
+	float: left;
+	margin: 13px auto; }
+
+
+
+.turntop{
+	position:fixed;
+	left:1200px;
+	top:450px; 
+}
+
+
+div.turntop:hover{opacity: 0.7}
+
+/*以上为基本样式*/
+
+.findsele{
+	width: 140px;
+	float: left;
+	margin-left:5px;
+}
+
+.divfloatleft{
+	float: left;
+	margin-left: 30px;
+}
+
+.messagefind{
+	float: none;
+	width: 500px;
+	height: 40px;
+	margin-top: 80px;
+	margin-left:420px;
+	background-color: ;
+}
+
+.searchdiv{
+	position: relative;
+	width: 800px;
+	margin: 20px auto;
+	top: 10px;
+}
+
+
+.messagediv{
+	float: none;
+	width: 800px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+.table-style{
+	border:1px;
+	width:800px;
+	table-layout:fixed;
+	background:rgb(231, 231, 231);
+	margin-top: 15px;
+}
+
+tr{
+	text-align: center;
+}
+.tr-style{
+	height: 30px; 
+}
+
+td.p10 {width:10%;}  
+td.p15 {width:15%;}  
+td.p20 {width:20%;}
+td.p30 {width:30%;} 
+td.p35 {width:35%;}    
+td.p45 {width:45%;} 
+
+.ul-button{
+
+}
+
+.ul-button li{
+	float: left;
+	margin-left:4px;
+}
+
+.ul-button li a{
+	width:50px;
+	text-align: center;
+}
+
+.remarks{
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+.td-overhide{
+	white-space: nowrap; /*normal  nowrap*/
+	text-overflow: ellipsis;
+	overflow: hidden; /*visible hidden*/
+}
+

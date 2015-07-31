@@ -1,0 +1,54 @@
+<div class="s_postpoll cl">
+	<div class="sinf sppoll z" style="width:100%;">
+		<dl>
+			<dt><span class="rq">*</span><label for="affirmpoint">{lang debate_square_point}:</label></dt>
+			<dd style="margin: 10px 0 15px 0;"><textarea name="affirmpoint" id="affirmpoint" class="s_txt" tabindex="1" >$debate[affirmpoint]</textarea></dd>
+			<dt><span class="rq">*</span><label for="negapoint">{lang debate_opponent_point}:</label></dt>
+			<dd style="margin: 10px 0 15px 0;"><textarea name="negapoint" id="negapoint" class="s_txt" tabindex="1" >$debate[negapoint]</textarea></dd>
+		</dl>
+	</div>
+	<br>
+	<div class="sadd z">
+		<dl>
+			<dt><label for="endtime">{lang endtime}:</label></dt>
+			<dd class="hasd cl">
+				<input type="text" name="endtime" id="endtime" class="pxs s_txt s_postpollline" onclick="showcalendar(event, this, true)" autocomplete="off" value="$debate[endtime]" tabindex="1" />
+
+			</dd>
+
+			<dt><label for="umpire">{lang debate_umpire}:</label></dt>
+			<dd>
+				<input type="text" name="umpire" id="umpire" class="pxs s_txt s_postpollline" onblur="checkuserexists(this.value, 'checkuserinfo')" value="$debate[umpire]" tabindex="1" /><span id="checkuserinfo"></span>
+			</dd>
+			<!--{hook/post_debate_extra}-->
+		</dl>
+	</div>
+</div>
+
+<script type="text/javascript" reload="1">
+function checkuserexists(username, objname) {
+	if(!username) {
+		$(objname).innerHTML = '';
+		return;
+	}
+	var x = new Ajax();
+	username = BROWSER.ie && document.charset == 'utf-8' ? encodeURIComponent(username) : username;
+	x.get('forum.php?mod=ajax&inajax=1&action=checkuserexists&username=' + username, function(s){
+		var obj = $(objname);
+		obj.innerHTML = s;
+	});
+}
+
+EXTRAFUNC['validator']['special'] = 'validateextra';
+function validateextra() {
+	if($('postform').affirmpoint.value == '') {
+		showDialog('{lang post_debate_message_1}', 'alert', '', function () { $('postform').affirmpoint.focus() });
+		return false;
+	}
+	if($('postform').negapoint.value == '') {
+		showDialog('{lang post_debate_message_2}', 'alert', '', function () { $('postform').negapoint.focus() });
+		return false;
+	}
+	return true;
+}
+</script>

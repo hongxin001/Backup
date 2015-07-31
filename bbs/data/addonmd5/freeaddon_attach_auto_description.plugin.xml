@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[freeaddon_attach_auto_description.plugin]]></item>
+	<item id="RevisionID"><![CDATA[37788]]></item>
+	<item id="SN"><![CDATA[2014110302ZJfJAbSJZ7]]></item>
+	<item id="RevisionDateline"><![CDATA[1404043202]]></item>
+	<item id="Data">
+		<item id="/template/faq.htm"><![CDATA[b30010c565c903d282dc9e8da4023a04]]></item>
+		<item id="/template/index.html"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/template/index.htm"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/pluginvar.func.php"><![CDATA[267999fcb0dcef90dcb4e0038b5060e9]]></item>
+		<item id="/feedback.inc.php"><![CDATA[96b1473f59439a2d47aa476ab5b9e5e7]]></item>
+		<item id="/check.php"><![CDATA[2c01a62aad13103e2c79ba429881f6ef]]></item>
+		<item id="/images/index.html"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/images/faq.gif"><![CDATA[2016bd6b1d980e1609ecad8d4c40085b]]></item>
+		<item id="/images/index.htm"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/thank.inc.php"><![CDATA[2bee23bcb8992857af505ad40f4fdb63]]></item>
+		<item id="/discuz_plugin_freeaddon_attach_auto_description_TC_BIG5.xml"><![CDATA[9b25cc9e0aefb56da4f408f34817a656]]></item>
+		<item id="/uninstall.php"><![CDATA[f796e13b35dd79f4c0453e1308679897]]></item>
+		<item id="/discuz_plugin_freeaddon_attach_auto_description_TC_UTF8.xml"><![CDATA[0c5e0e14644412cffe1dc4a2c014134a]]></item>
+		<item id="/upgrade.php"><![CDATA[7b7690bc56b5ac27e49e7ac8b3ede773]]></item>
+		<item id="/index.html"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/hook.class.php"><![CDATA[567bdfec60373ad14282930f02f5711a]]></item>
+		<item id="/installlang.lang.php"><![CDATA[6596854a820d51ddcbc2b541c6fa1451]]></item>
+		<item id="/addon.inc.php"><![CDATA[e33b688b18f26bdca886ba7ad7eff573]]></item>
+		<item id="/index.htm"><![CDATA[6b07e187751699bd13b89f627897a808]]></item>
+		<item id="/install.php"><![CDATA[7b7690bc56b5ac27e49e7ac8b3ede773]]></item>
+		<item id="/discuz_plugin_freeaddon_attach_auto_description_SC_GBK.xml"><![CDATA[952e4b26dcbd6114049372cb040fc0a8]]></item>
+		<item id="/discuz_plugin_freeaddon_attach_auto_description_SC_UTF8.xml"><![CDATA[0b507ca1000ee330bfe18e939f9284ae]]></item>
+		<item id="/demo.php"><![CDATA[e7fdab78f6b124a7c2d9c2641be31961]]></item>
+		<item id="/changelog.inc.php"><![CDATA[7d468385112d006d72d9235c6c5bcc44]]></item>
+		<item id="/faq.inc.php"><![CDATA[79e41eede4fb221ac2ce6988c49deaef]]></item>
+	</item>
+</root>

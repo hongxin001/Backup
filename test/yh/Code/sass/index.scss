@@ -1,0 +1,230 @@
+@import 'func';
+@import 'mixins';
+html,body{
+    font-family: "STHeitiSC-Light","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial, Helvetica,sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+//  overflow: hidden;
+    font-size: 14px;
+}
+body {
+  background: url(../img/background.png) no-repeat fixed;
+//background-size: 100% 100%;
+    background-size: cover;
+  background-color: #eee;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img {
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+.pre {
+    position: absolute;
+    top: 24px;
+    left: 59px;
+    display: block;
+    width:40px;
+    height: 63px;
+    background: url(../img/left.png) no-repeat;
+    background-size: contain;
+    z-index: 999;
+}
+.next {
+    position: absolute;
+    top: 24px;
+    right: 59px;
+    display: block;
+    width:40px;
+    height: 63px;
+    background: url(../img/right.png) no-repeat;
+    background-size: contain;
+    z-index: 999;
+}
+.page {
+    position: relative;
+    padding-top:rem(28);
+}
+.page2 {
+    display: none;
+}
+.main{
+    h2 {
+        margin: 0;
+        height: rem(195);
+        background: url(../img/lucky_title.png) no-repeat;
+        background-size: auto 100%;
+        background-position: 5% 50%;
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+    .machine {
+        position: relative;
+        top: srem(40);
+        text-align: center;
+    }
+    .user {
+        margin: 0 auto;
+        width: rem(430);
+        height: rem(412);
+        background: rgba(255,255,255,.73);
+        border-radius: 15px;
+        border: 8px solid #feeb00;
+        z-index: -1;
+    }
+    a.btn {
+        display: block;
+        margin: 15px auto 0;
+        width: rem(264);
+        height: rem(56);
+        line-height: 3rem;
+        background: transparent;
+        border: 5px solid #fff;
+        color: #FFFFFF;
+        font-size: 36px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .headpic {
+        width: 100%;
+        height: rem(325);
+        padding: 3px 0;
+        img {
+            height: calc(100% - 3px);
+            width: auto;
+            background: #fff;
+        }
+    }
+    .uesername {
+        padding: 16px;
+        line-height: 1;
+        height: 72px;
+        background:#fff;
+        color: #007332;
+        font-size: 40px;
+    }
+}
+
+.result {
+    position: absolute;
+    right: 10px;
+    top: 79px;
+    padding: 115px 0;
+    width: 310px;
+    height: 530px;
+    background: url(../img/lucky_list.png) no-repeat;
+    background-size: contain;
+    ul {
+        margin: 0;
+        padding: 0 25px;
+        li {
+            color: #007332;
+            font-size: 0;
+            margin-bottom: 1rem;
+            * {
+                @include inline-block(middle);
+            }
+            .r_head {
+                font-size: 28px;
+                width: 85px;
+                height: 85px;
+                margin-right: 10px;
+                background: #eee;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .r_username {
+                width: calc(100% - 95);
+                font-size: 23px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.page1 {
+    h2.title {
+        margin: 0;
+        height: 196px;
+        background: url(../img/qr_title.png) no-repeat;
+        background-size: auto 100%;
+        background-position: 25% 50%;
+    };
+    img.qr {
+        box-sizing: content-box;
+        display: block;
+        margin: 0 auto;
+        padding-left: 180px;
+        width: 373px;
+        height: 373px;
+    }
+}
+.page3 {
+    display: none;
+    h2 {
+        margin: 0;
+        height: 204px;
+        background: url(../img/lucky_member_title.png) no-repeat;
+        background-size: auto 100%;
+        background-position: 30% 50%;
+    }
+    .wrapper {
+        position: absolute;
+        top: 185px;
+        left: 60%;
+        margin-left: -300px;
+        padding:1rem;
+        z-index: -1;
+        width: 600px;
+        height: auto;
+        min-height: 475px;
+        border-radius: 10px;
+        border: 7px solid rgba(0, 167, 149,.6);
+        background: rgba(255,255,255,.6);
+        ul {
+            margin: 40px auto 0;
+            padding: 0;
+            width: 80%;
+        }
+        li {
+            font-size: 0;
+            margin-bottom: 1rem;
+            * {
+                @include inline-block(middle);
+            }
+            .r_head {
+                font-size: 28px;
+                width: 85px;
+                height: 85px;
+                margin-right: 10px;
+                background: #eee;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .r_username {
+                font-size: 35px;
+                color: #007332;
+            }
+        }
+    }
+}

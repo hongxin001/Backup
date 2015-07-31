@@ -1,0 +1,98 @@
+[2014-09-09 15:56:57][1316][INFO]return successfully!
+[2014-09-09 15:56:57][1316][INFO]return successfully! | ***********************************
+[2014-09-09 15:56:57][1316][INFO]return successfully! | ***** interface request start *****
+[2014-09-09 15:56:57][1316][INFO]return successfully! | request:
+[2014-09-09 15:56:57][1316][INFO]return successfully! | get:array (
+  'signature' => 'baf4ba43b0a7450af844ce5586ff8837cb1d90f4',
+  'echostr' => '2821392803025564395',
+  'timestamp' => '1410249417',
+  'nonce' => '64863908',
+)
+[2014-09-09 15:56:57][1316][interface.php][main][77][ERROR][0] return successfully! | error input!
+[2014-09-09 15:56:57][1316][INFO]return successfully! | ***** interface request end *****
+[2014-09-09 15:56:57][1316][INFO]return successfully! | *********************************
+[2014-09-09 15:56:57][1316][INFO]return successfully!
+[2014-09-09 15:59:58][1330][INFO]return successfully!
+[2014-09-09 15:59:58][1330][INFO]return successfully! | ***********************************
+[2014-09-09 15:59:58][1330][INFO]return successfully! | ***** interface request start *****
+[2014-09-09 15:59:58][1330][INFO]return successfully! | request:
+[2014-09-09 15:59:58][1330][INFO]return successfully! | get:array (
+  'signature' => '2b96443d46d5cc27f17eb90ed47d8e54dd9f7f62',
+  'echostr' => '2517046223652762495',
+  'timestamp' => '1410249598',
+  'nonce' => '1841143911',
+)
+[2014-09-09 15:59:58][1330][interface.php][main][83][ERROR][0] return successfully! | error input!
+[2014-09-09 15:59:58][1330][INFO]return successfully! | ***** interface request end *****
+[2014-09-09 15:59:58][1330][INFO]return successfully! | *********************************
+[2014-09-09 15:59:58][1330][INFO]return successfully!
+[2014-09-09 16:00:00][1331][INFO]return successfully!
+[2014-09-09 16:00:00][1331][INFO]return successfully! | ***********************************
+[2014-09-09 16:00:00][1331][INFO]return successfully! | ***** interface request start *****
+[2014-09-09 16:00:00][1331][INFO]return successfully! | request:
+[2014-09-09 16:00:00][1331][INFO]return successfully! | get:array (
+  'signature' => '0ffb3ec50d59a3bcf0dab48b0a66bbadce1a4629',
+  'echostr' => '6890021267350402004',
+  'timestamp' => '1410249600',
+  'nonce' => '1191553901',
+)
+[2014-09-09 16:00:00][1331][interface.php][main][83][ERROR][0] return successfully! | error input!
+[2014-09-09 16:00:00][1331][INFO]return successfully! | ***** interface request end *****
+[2014-09-09 16:00:00][1331][INFO]return successfully! | *********************************
+[2014-09-09 16:00:00][1331][INFO]return successfully!
+[2014-09-09 16:06:30][1334][INFO]return successfully!
+[2014-09-09 16:06:30][1334][INFO]return successfully! | ***********************************
+[2014-09-09 16:06:30][1334][INFO]return successfully! | ***** interface request start *****
+[2014-09-09 16:06:30][1334][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_7207f4a5de8b]]></ToUserName>
+<FromUserName><![CDATA[okfqMjjzpz8vfQZ-vgSq7AP9sHcM]]></FromUserName>
+<CreateTime>1410249990</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[哦哦]]></Content>
+<MsgId>6056977586435794052</MsgId>
+</xml>
+[2014-09-09 16:06:30][1334][INFO]return successfully! | get:array (
+  'signature' => '699d0a3a945208fc16699da236e69c8fb800004d',
+  'timestamp' => '1410249990',
+  'nonce' => '1073769549',
+)
+[2014-09-09 16:06:30][1334][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[okfqMjjzpz8vfQZ-vgSq7AP9sHcM]]></ToUserName>
+  <FromUserName><![CDATA[gh_7207f4a5de8b]]></FromUserName>
+  <CreateTime>1410249990</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[未实现]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-09-09 16:06:30][1334][INFO]return successfully! | ***** interface request end *****
+[2014-09-09 16:06:30][1334][INFO]return successfully! | *********************************
+[2014-09-09 16:06:30][1334][INFO]return successfully!
+[2014-09-09 16:06:30][1334][INFO]return successfully! | cost time:0.0046131610870361 
+[2014-09-09 16:22:18][1309][INFO]return successfully!
+[2014-09-09 16:22:18][1309][INFO]return successfully! | ***********************************
+[2014-09-09 16:22:18][1309][INFO]return successfully! | ***** interface request start *****
+[2014-09-09 16:22:18][1309][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_7207f4a5de8b]]></ToUserName>
+<FromUserName><![CDATA[okfqMjjzpz8vfQZ-vgSq7AP9sHcM]]></FromUserName>
+<CreateTime>1410250938</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好]]></Content>
+<MsgId>6056981658064790754</MsgId>
+</xml>
+[2014-09-09 16:22:18][1309][INFO]return successfully! | get:array (
+  'signature' => '09f3590a2e94f50b036849e3b524c8cdccecd915',
+  'timestamp' => '1410250938',
+  'nonce' => '1987495895',
+)
+[2014-09-09 16:22:18][1309][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[okfqMjjzpz8vfQZ-vgSq7AP9sHcM]]></ToUserName>
+  <FromUserName><![CDATA[gh_7207f4a5de8b]]></FromUserName>
+  <CreateTime>1410250938</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[未实现]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-09-09 16:22:18][1309][INFO]return successfully! | ***** interface request end *****
+[2014-09-09 16:22:18][1309][INFO]return successfully! | *********************************
+[2014-09-09 16:22:18][1309][INFO]return successfully!
+[2014-09-09 16:22:18][1309][INFO]return successfully! | cost time:0.0030689239501953 

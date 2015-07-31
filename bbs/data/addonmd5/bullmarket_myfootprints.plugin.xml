@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[bullmarket_myfootprints.plugin]]></item>
+	<item id="RevisionID"><![CDATA[42191]]></item>
+	<item id="SN"><![CDATA[2014110300RHs7rJ0Gi6]]></item>
+	<item id="RevisionDateline"><![CDATA[1412924401]]></item>
+	<item id="Data">
+		<item id="/template/js/jquery.min_v1.0.js"><![CDATA[fb7a0035907e4c1d464f3521547c6556]]></item>
+		<item id="/template/img/titlebg.jpg"><![CDATA[2e9b2498628d679ddbd0bacfc6c3a2fa]]></item>
+		<item id="/template/img/morelink.gif"><![CDATA[9a1cccf0eaf58e75bac67e79e0d64e19]]></item>
+		<item id="/template/img/dian.png"><![CDATA[0950863cc2330e6bb57b51d4b0d735e6]]></item>
+		<item id="/template/img/jian.png"><![CDATA[b7be6462eab93dff1347945ecc1cfe43]]></item>
+		<item id="/template/img/logo.png"><![CDATA[c7433dbafc796cf642ffbb316b77b095]]></item>
+		<item id="/template/img/dian2.png"><![CDATA[d16aa4ce95ad41d95059de806adce395]]></item>
+		<item id="/template/img/ictb.png"><![CDATA[2b107cfcb5170d199eaae54ba990a4da]]></item>
+		<item id="/template/img/pagination_1.png"><![CDATA[76a04e46b7045751a5f580eeace10784]]></item>
+		<item id="/template/img/dian3.png"><![CDATA[21ff2b1cb141f10fb236b00f2892aa85]]></item>
+		<item id="/template/myfootprints.htm"><![CDATA[3ba83b136e4ee1068a325023f7704f06]]></item>
+		<item id="/template/css/style.css"><![CDATA[5c49827b8276643fae6e29849a32ecc6]]></item>
+		<item id="/discuz_plugin_bullmarket_myfootprints_TC_UTF8.xml"><![CDATA[cf105501c8f777ee21f8599218dc1b05]]></item>
+		<item id="/myfootprints.class.php"><![CDATA[4bd02b53834a76eb67f000a855bd2291]]></item>
+		<item id="/uninstall.php"><![CDATA[75b19865d5d0a4370afede7718f4e2b9]]></item>
+		<item id="/discuz_plugin_bullmarket_myfootprints_SC_UTF8.xml"><![CDATA[39fe5fa5cac37e1abf8188e85549d570]]></item>
+		<item id="/bullmarket_myfootprints.inc.php"><![CDATA[533a8a93677f11fe8712f3482fa23ca2]]></item>
+		<item id="/install.php"><![CDATA[50d7e33adcd9d96fe7f7d7f45e0c4553]]></item>
+		<item id="/discuz_plugin_bullmarket_myfootprints_TC_BIG5.xml"><![CDATA[7def11aea6ef00e0f60285969fd7b24e]]></item>
+		<item id="/discuz_plugin_bullmarket_myfootprints_SC_GBK.xml"><![CDATA[3c1ea9a0e5e79eff954a466a4b24db40]]></item>
+	</item>
+</root>

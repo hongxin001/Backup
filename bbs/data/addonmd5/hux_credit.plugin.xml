@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[hux_credit.plugin]]></item>
+	<item id="RevisionID"><![CDATA[722]]></item>
+	<item id="SN"><![CDATA[2014102920xOz6JJzJ8Z]]></item>
+	<item id="RevisionDateline"><![CDATA[1391608801]]></item>
+	<item id="Data">
+		<item id="/template/index.htm"><![CDATA[faedc042f62b30a36d0f276f1b42f402]]></item>
+		<item id="/payok.inc.php"><![CDATA[8989647aaebf225c7352c4d25bbc4f06]]></item>
+		<item id="/payok_auto.inc.php"><![CDATA[270b18904b8cac39652d2b39be97aa8b]]></item>
+		<item id="/discuz_plugin_hux_credit_SC_GBK.xml"><![CDATA[889952f33cfafc42f10ae6784ecfa485]]></item>
+		<item id="/admin.inc.php"><![CDATA[8d5769b46ac47617f1dc88ecc32d6e3b]]></item>
+		<item id="/hux_credit.class.php"><![CDATA[648a7a49e1fb335fee9e51de2fa7f203]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_hux_credit_SC_UTF8.xml"><![CDATA[13f7d64d5b9d96b30d2383e068e328bf]]></item>
+		<item id="/discuz_plugin_hux_credit_TC_BIG5.xml"><![CDATA[8d945ec8c5d750dd1d4aa35e2e772724]]></item>
+		<item id="/hux_credit.inc.php"><![CDATA[c179d485049c4609df44897a06748a20]]></item>
+		<item id="/discuz_plugin_hux_credit_TC_UTF8.xml"><![CDATA[b9d135a23cc1f7385db3b51e62710112]]></item>
+	</item>
+</root>

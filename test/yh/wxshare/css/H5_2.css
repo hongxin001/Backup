@@ -1,0 +1,18 @@
+.page2 header {
+	padding: 0.857rem 1.0714rem;
+}
+.time {
+	background: url(../img/time.png);
+	background-size: 100% 100%;
+	float: right;
+	position: relative;
+	font-size: 0;
+	width: 2.357rem;
+	height: 2.357rem;
+	text-align: center;
+}
+.time #time_text {
+	line-height: 2.375rem;
+	font-size: 1rem;
+	color: #FFFFFF;
+}

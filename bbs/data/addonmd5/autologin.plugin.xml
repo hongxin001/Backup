@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[autologin.plugin]]></item>
+	<item id="RevisionID"><![CDATA[42332]]></item>
+	<item id="SN"><![CDATA[2014103004S48pjlEER0]]></item>
+	<item id="RevisionDateline"><![CDATA[1414411201]]></item>
+	<item id="Data">
+		<item id="/template/checkcode.htm"><![CDATA[fcb653886b479b7edb088b37d70b3507]]></item>
+		<item id="/template/admincp.htm"><![CDATA[fe2690da76ee80e1ff8f0767aded2512]]></item>
+		<item id="/url.inc.php"><![CDATA[be3a236c2fe560ded6a5daf8c8ec1aaf]]></item>
+		<item id="/discuz_plugin_autologin_TC_UTF8.xml"><![CDATA[e4da12f4d8e7e28f903852b94cd702e7]]></item>
+		<item id="/discuz_plugin_autologin_TC_BIG5.xml"><![CDATA[7560192832267c2c8a8ab9b6430a90b7]]></item>
+		<item id="/admincp.inc.php"><![CDATA[3594cb071ad40dac5f6a1027fedb3750]]></item>
+		<item id="/uninstall.php"><![CDATA[e499ac5d6778a7f7bd67abdd2ed6a8cd]]></item>
+		<item id="/discuz_plugin_autologin_SC_GBK.xml"><![CDATA[fa3c2caedfa1304e05d26c213b5e07f5]]></item>
+		<item id="/hook.class.php"><![CDATA[20b15befc7ba9d931ce13cd7624272f6]]></item>
+		<item id="/data.inc.php"><![CDATA[61f991e2953a11215cadce002118f888]]></item>
+		<item id="/addon.inc.php"><![CDATA[bbc83114d7b3f80f43e82e22c02ba8e0]]></item>
+		<item id="/discuz_plugin_autologin_SC_UTF8.xml"><![CDATA[80276e6830e849997cf89414845ffa28]]></item>
+		<item id="/install.php"><![CDATA[1f82883ec2efeec2274bf83b0b7bd730]]></item>
+		<item id="/autologin.inc.php"><![CDATA[a97680104aff8571e8b42cdfbd0bb289]]></item>
+	</item>
+</root>

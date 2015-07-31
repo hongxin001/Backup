@@ -1,0 +1,411 @@
+[ 2014-09-12T10:03:00+08:00 ] 140.207.54.74 /weiphp/index.php?s=/home/weixin/index.html&signature=20e1c859641c45265dc09a012fe4ba66a744b8b9&timestamp=1410487375&nonce=1805991010
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.294459s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjkAWtyfPoUDABxEuJRHrNfU' ) LIMIT 1   [ RunTime:0.054253s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.060355s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000604s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000529s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.021360s ]
+SQL: UPDATE `wp_config` SET `value`=-3570 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.014586s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.094328s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410487378,'2014-09-12 10:02:58','a:6:{s:10:\"ToUserName\";s:15:\"gh_e3fce6e7fc4f\";s:12:\"FromUserName\";s:28:\"oRV3VjkAWtyfPoUDABxEuJRHrNfU\";s:10:\"CreateTime\";s:10:\"1410487375\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:9:\"subscribe\";s:8:\"EventKey\";s:0:\"\";}','<xml><ToUserName><![CDATA[gh_e3fce6e7fc4f]]></ToUserName>\n<FromUserName><![CDATA[oRV3VjkAWtyfPoUDABxEuJRHrNfU]]></FromUserName>\n<CreateTime>1410487375</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[subscribe]]></Event>\n<EventKey><![CDATA[]]></EventKey>\n</xml>') [ RunTime:0.057659s ]
+NOTIC: [8] Undefined index: Content /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.003043s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000548s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000074s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410487378,'2014-09-12 10:02:58','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[我要向世界宣布，这个鱼塘被我软小贱承包了哇哈哈...回复“帮助”看看在鱼塘能干什么~有什么问题也可以直接在下面输入，软小贱会在24小时内回复你~(≧▽≦)/~]]></Content><ToUserName><![CDATA[oRV3VjkAWtyfPoUDABxEuJRHrNfU]]></ToUserName><FromUserName><![CDATA[gh_e3fce6e7fc4f]]></FromUserName><CreateTime>1410487377</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.042074s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.010035s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.000743s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_e3fce6e7fc4f" )  [ RunTime:0.000067s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('subscribe',0,-3570,1410487379,'gh_e3fce6e7fc4f',10,10) [ RunTime:0.036163s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = -3570 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.200827s ]
+SQL: UPDATE `wp_follow` SET `score`=10,`experience`=10 WHERE ( `id` = -3570 ) [ RunTime:0.078317s ]
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.132879s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjkAWtyfPoUDABxEuJRHrNfU' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.206018s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `openid` = 'oRV3VjkAWtyfPoUDABxEuJRHrNfU' ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.106910s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.029983s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = '541254540be8619' ) LIMIT 1   [ RunTime:0.017824s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `email` = '1410487380@weiphp.cn' ) LIMIT 1   [ RunTime:0.007116s ]
+SQL: INSERT INTO `wp_ucenter_member` (`username`,`password`,`email`,`openid`,`token`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('541254540be8619','c1340337bf03d938ae1646718a272280','1410487380@weiphp.cn','oRV3VjkAWtyfPoUDABxEuJRHrNfU','gh_e3fce6e7fc4f',1410487377,'2362390090',1410487377,1) [ RunTime:0.020597s ]
+SQL: INSERT INTO `wp_follow` (`token`,`openid`,`subscribe_time`,`id`) VALUES ('gh_e3fce6e7fc4f','oRV3VjkAWtyfPoUDABxEuJRHrNfU',1410487379,469) [ RunTime:0.352207s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+
+[ 2014-09-12T12:08:59+08:00 ] 140.207.54.74 /weiphp/index.php?s=/home/weixin/index.html&signature=c1c52e89f301fcf4b8f21fa973d0c9aaa3765d2c&timestamp=1410494938&nonce=1487789345
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000853s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjijdTVa1aF4FrwMThxs3TME' ) LIMIT 1   [ RunTime:0.020258s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000675s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000506s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000545s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.004159s ]
+SQL: UPDATE `wp_config` SET `value`=-3571 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.001015s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000408s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410494939,'2014-09-12 12:08:59','a:6:{s:10:\"ToUserName\";s:15:\"gh_e3fce6e7fc4f\";s:12:\"FromUserName\";s:28:\"oRV3VjijdTVa1aF4FrwMThxs3TME\";s:10:\"CreateTime\";s:10:\"1410494938\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:9:\"subscribe\";s:8:\"EventKey\";s:0:\"\";}','<xml><ToUserName><![CDATA[gh_e3fce6e7fc4f]]></ToUserName>\n<FromUserName><![CDATA[oRV3VjijdTVa1aF4FrwMThxs3TME]]></FromUserName>\n<CreateTime>1410494938</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[subscribe]]></Event>\n<EventKey><![CDATA[]]></EventKey>\n</xml>') [ RunTime:0.010267s ]
+NOTIC: [8] Undefined index: Content /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000511s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000081s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410494939,'2014-09-12 12:08:59','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[我要向世界宣布，这个鱼塘被我软小贱承包了哇哈哈...回复“帮助”看看在鱼塘能干什么~有什么问题也可以直接在下面输入，软小贱会在24小时内回复你~(≧▽≦)/~]]></Content><ToUserName><![CDATA[oRV3VjijdTVa1aF4FrwMThxs3TME]]></ToUserName><FromUserName><![CDATA[gh_e3fce6e7fc4f]]></FromUserName><CreateTime>1410494939</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.000462s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_e3fce6e7fc4f" )  [ RunTime:0.000073s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('subscribe',0,-3571,1410494939,'gh_e3fce6e7fc4f',10,10) [ RunTime:0.002728s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = -3571 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.014615s ]
+SQL: UPDATE `wp_follow` SET `score`=10,`experience`=10 WHERE ( `id` = -3571 ) [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000962s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjijdTVa1aF4FrwMThxs3TME' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `openid` = 'oRV3VjijdTVa1aF4FrwMThxs3TME' ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.024640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000693s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = '541271db5a62073' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `email` = '1410494939@weiphp.cn' ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: INSERT INTO `wp_ucenter_member` (`username`,`password`,`email`,`openid`,`token`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('541271db5a62073','c1340337bf03d938ae1646718a272280','1410494939@weiphp.cn','oRV3VjijdTVa1aF4FrwMThxs3TME','gh_e3fce6e7fc4f',1410494939,'2362390090',1410494939,1) [ RunTime:0.003191s ]
+SQL: INSERT INTO `wp_follow` (`token`,`openid`,`subscribe_time`,`id`) VALUES ('gh_e3fce6e7fc4f','oRV3VjijdTVa1aF4FrwMThxs3TME',1410494939,470) [ RunTime:0.000925s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+
+[ 2014-09-12T12:19:14+08:00 ] 140.207.54.77 /weiphp/index.php?s=/home/weixin/index.html&signature=4fe3cdd54609406dd11701f0cd0206f04f6ac0d3&timestamp=1410495554&nonce=1530456350
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000793s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjkdE5RaijN-Z36bN2VjBx6w' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000555s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000495s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.000523s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: UPDATE `wp_config` SET `value`=-3572 WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000396s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410495554,'2014-09-12 12:19:14','a:6:{s:10:\"ToUserName\";s:15:\"gh_e3fce6e7fc4f\";s:12:\"FromUserName\";s:28:\"oRV3VjkdE5RaijN-Z36bN2VjBx6w\";s:10:\"CreateTime\";s:10:\"1410495554\";s:7:\"MsgType\";s:5:\"event\";s:5:\"Event\";s:9:\"subscribe\";s:8:\"EventKey\";s:0:\"\";}','<xml><ToUserName><![CDATA[gh_e3fce6e7fc4f]]></ToUserName>\n<FromUserName><![CDATA[oRV3VjkdE5RaijN-Z36bN2VjBx6w]]></FromUserName>\n<CreateTime>1410495554</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[subscribe]]></Event>\n<EventKey><![CDATA[]]></EventKey>\n</xml>') [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: Content /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000502s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000082s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410495554,'2014-09-12 12:19:14','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[我要向世界宣布，这个鱼塘被我软小贱承包了哇哈哈...回复“帮助”看看在鱼塘能干什么~有什么问题也可以直接在下面输入，软小贱会在24小时内回复你~(≧▽≦)/~]]></Content><ToUserName><![CDATA[oRV3VjkdE5RaijN-Z36bN2VjBx6w]]></ToUserName><FromUserName><![CDATA[gh_e3fce6e7fc4f]]></FromUserName><CreateTime>1410495554</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.000510s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_e3fce6e7fc4f" )  [ RunTime:0.000071s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('subscribe',0,-3572,1410495554,'gh_e3fce6e7fc4f',10,10) [ RunTime:0.000143s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = -3572 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: UPDATE `wp_follow` SET `score`=10,`experience`=10 WHERE ( `id` = -3572 ) [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000690s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjkdE5RaijN-Z36bN2VjBx6w' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `openid` = 'oRV3VjkdE5RaijN-Z36bN2VjBx6w' ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000538s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = '541274427dce527' ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `email` = '1410495554@weiphp.cn' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: INSERT INTO `wp_ucenter_member` (`username`,`password`,`email`,`openid`,`token`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('541274427dce527','c1340337bf03d938ae1646718a272280','1410495554@weiphp.cn','oRV3VjkdE5RaijN-Z36bN2VjBx6w','gh_e3fce6e7fc4f',1410495554,'2362390093',1410495554,1) [ RunTime:0.000205s ]
+SQL: INSERT INTO `wp_follow` (`token`,`openid`,`subscribe_time`,`id`) VALUES ('gh_e3fce6e7fc4f','oRV3VjkdE5RaijN-Z36bN2VjBx6w',1410495554,471) [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+
+[ 2014-09-12T12:19:14+08:00 ] 183.60.62.44 /weiphp/index.php?s=/home/weixin/index.html
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+
+[ 2014-09-12T12:21:32+08:00 ] 140.207.54.77 /weiphp/index.php?s=/home/weixin/index.html&signature=0233fc40352834ab0be1dae845f81b8d88e1fcde&timestamp=1410495692&nonce=1584390811
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000778s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjkdE5RaijN-Z36bN2VjBx6w' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000545s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000486s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_weixin_log` [ RunTime:0.000382s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410495692,'2014-09-12 12:21:32','a:6:{s:10:\"ToUserName\";s:15:\"gh_e3fce6e7fc4f\";s:12:\"FromUserName\";s:28:\"oRV3VjkdE5RaijN-Z36bN2VjBx6w\";s:10:\"CreateTime\";s:10:\"1410495692\";s:7:\"MsgType\";s:4:\"text\";s:7:\"Content\";s:39:\"我是软件学院201402班的李旭阳\";s:5:\"MsgId\";s:19:\"6058032868489613817\";}','<xml><ToUserName><![CDATA[gh_e3fce6e7fc4f]]></ToUserName>\n<FromUserName><![CDATA[oRV3VjkdE5RaijN-Z36bN2VjBx6w]]></FromUserName>\n<CreateTime>1410495692</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[我是软件学院201402班的李旭阳]]></Content>\n<MsgId>6058032868489613817</MsgId>\n</xml>') [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000478s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000073s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_e3fce6e7fc4f')  ) AND ( `keyword` = '我是软件学院201402班的李旭阳' ) AND ( `keyword_type` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_e3fce6e7fc4f')  ) AND ( `keyword_type` > 0 ) ORDER BY keyword_length desc, id desc  [ RunTime:0.000061s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Application/Home/Controller/WeixinController.class.php 第 129 行.
+SQL: SELECT * FROM `wp_keyword` WHERE (  (`token` ='0' or token='gh_e3fce6e7fc4f')  ) AND ( `keyword` = '*' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000062s ]
+NOTIC: [2] file_get_contents(?key=&amp;lc=ch&amp;ft=0.0&amp;text=我是软件学院201402班的李旭阳): failed to open stream: No such file or directory /home/www/test/weiphp/Addons/Chat/Model/WeixinAddonModel.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.000500s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_e3fce6e7fc4f" )  [ RunTime:0.000063s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('chat',0,471,1410495692,'gh_e3fce6e7fc4f',0,0) [ RunTime:0.000135s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = 471 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: UPDATE `wp_follow` SET `score`=0,`experience`=0 WHERE ( `id` = 471 ) [ RunTime:0.000122s ]
+SQL: INSERT INTO `wp_weixin_log` (`cTime`,`cTime_format`,`data`,`data_post`) VALUES (1410495692,'2014-09-12 12:21:32','<?xml version=\"1.0\"?>\n<xml><Content><![CDATA[哈哈~~]]></Content><ToUserName><![CDATA[oRV3VjkdE5RaijN-Z36bN2VjBx6w]]></ToUserName><FromUserName><![CDATA[gh_e3fce6e7fc4f]]></FromUserName><CreateTime>1410495692</CreateTime><MsgType><![CDATA[text]]></MsgType></xml>\n','_replyData') [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000404s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140912 ) LIMIT 1   [ RunTime:0.009284s ]
+SQL: INSERT INTO `wp_tongji` (`token`,`day`,`content`,`month`) VALUES ('gh_e3fce6e7fc4f',20140912,'a:1:{s:4:\"Chat\";i:1;}',201409) [ RunTime:0.008138s ]
+
+[ 2014-09-12T12:29:16+08:00 ] 117.136.23.117 /weiphp/index.php?s=/addon/Forms/FormsValue/add/forms_id/14/token/gh_e3fce6e7fc4f/openid/oRV3Vjt1tqbzCBTAcdQdt7HUcP_c.html
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140912 ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: Forms /home/www/test/weiphp/Application/Home/Common/function.php 第 91 行.
+SQL: UPDATE `wp_tongji` SET `content`='a:2:{s:4:\"Chat\";i:1;s:5:\"Forms\";i:1;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140912 ) [ RunTime:0.000207s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.007458s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000058s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3Vjt1tqbzCBTAcdQdt7HUcP_c' ) LIMIT 1   [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000622s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_value' ) LIMIT 1   [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000511s ]
+SQL: SELECT * FROM `wp_forms` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.024515s ]
+SQL: SHOW COLUMNS FROM `wp_picture` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `wp_picture` WHERE ( `status` = 1 ) AND ( `id` = 365 ) LIMIT 1   [ RunTime:0.011194s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `wp_forms_value` WHERE ( `uid` = 467 ) AND ( `forms_id` = 14 ) LIMIT 1   [ RunTime:0.017609s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `wp_forms_attribute` WHERE ( `forms_id` = 14 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) ORDER BY sort asc, id asc  [ RunTime:0.001520s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 64 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 84 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 66 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 66 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 66 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 57 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 57 行.
+NOTIC: [8] Undefined variable: data /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 177 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /home/www/test/weiphp/Runtime/Cache/Home/8a711c5829a2c22d8eba4b89c2127d75.php 第 178 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+

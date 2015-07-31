@@ -1,0 +1,259 @@
+#main {
+	margin-bottom: 7.5rem;;
+}
+.media-list .type {
+	text-align: center;
+	background: #F7B83A;
+	color: #fff;
+}
+.media.hidden {
+	display: none;
+}
+.media.show {
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	background: #fff;
+}
+.media.show {
+	position: relative;
+	display: block;
+	display: -webkit-box;  
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
+	-webkit-box-pack: justify; 
+	-webkit-justify-content: space-between;
+			justify-content: space-between;
+	-webkit-align-content: center;
+			align-content: center;
+	color: #626161;
+	padding: .5rem 0;
+}
+.media>.img {
+	display: block;
+	display: -webkit-box;  
+	display: -webkit-flex;
+	display: flex;
+	box-sizing: border-box;
+	width: 30%;
+	height: 6.5rem;
+	line-height: 6.5rem;
+	float: left;
+	-webkit-flex-flow: row nowrap;	
+			flex-flow: row nowrap;
+	-webkit-box-pack: center; 
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-box-align: center; 		
+	-webkit-align-items: center;
+			align-items: center;
+
+}
+.media>.delete a {
+	position: absolute;
+	bottom: 2.275rem;
+	right: 0.825rem;
+	display: block;
+	border: 2px solid #e60012;
+	color: #e60012;
+	font-size: .8rem;
+	padding: .4rem .8rem;
+	height: 1.07rem;
+}
+.media>.img img{
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 6rem;
+}
+.media-body {
+	display: inline-block;
+	width: 66%;
+	flex: 1 66%;
+	margin-left: 3.744%;
+}
+.media h2{
+	margin-top: .7rem;
+	margin-bottom: .3rem;
+	font-size: 1rem;
+	color: #585858;
+}
+.media .media-body>.m-content{
+	font-size: .75rem;
+}
+.media .media-body>.m-content>div {
+	margin: .8em 0;
+}
+div.num {
+	position: absolute;
+	right: 5.0125rem;
+	bottom: 2.275rem;
+	background: #fff;
+	border: 2px solid #F7B83A;
+	color: #F7B83A;
+	outline: #F7B83A;
+	font-size: .8rem;
+	padding: .4rem 0;
+	outline: 0;
+	height: 1.07rem;
+}
+
+div.num span {
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: .4rem 1rem;
+	color: #F7B83A;
+	background: #fff;
+	text-align: center;
+	font-size: .8rem;
+	
+}
+div.num .cover {
+	display: none;
+}
+div.num .cover.active{
+	display: block;
+	display: -webkit-box;  
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;	
+			flex-flow: row nowrap;
+	background: rgba(0,0,0,.15);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding:auto;
+	z-index: 9999;
+}
+.cover ul{
+	width: 70%;
+	margin:auto;
+	overflow: hidden;
+	-webkit-box-align: center; 		
+	-webkit-align-items: center;
+			align-items: center;
+}
+.cover ul li {
+	box-sizing: border-box;
+	width: 100%;
+	float: none;
+	text-align: center;
+	font-size: 1rem;
+	padding: .5rem;
+	background: #FFF;
+	border-bottom: 1px solid #F7B83A;
+}
+.cover ul li.close {
+	background: #F7B83A;
+	color: #fff;
+}
+.media-list .install{
+	margin: 0 2%;
+	padding: 4% 2%;
+	width: 96%;
+	box-sizing: border-box;
+	background: #fff;
+}
+.install div {
+	margin-top: .75rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding: .6rem;
+	border: 2px solid #E8E8E8;
+	font-size: .75rem;
+	color: #de2222;
+}
+.install> div >address a{
+	color: #de2222;
+}
+body>footer {
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 6.7142rem;
+	box-sizing: border-box;
+	padding: 0.714rem 2rem;
+	background: #fff;
+	font-size: 0.7142rem;
+	text-align: left;
+	line-height: 1.3;
+}
+footer>.content {
+	width: 48%;
+	float: left;
+}
+footer>.content p{
+	margin: 0;
+	line-height: 1.9;
+	
+}
+footer>.content p.price{
+	font-size: 1.2857rem;
+}
+footer>.content+div {
+	float: left;
+}
+footer>.content+div+div {
+	float: right;
+}
+footer>.content+div+div span {
+	display: block;
+	height: 5.286rem;
+	line-height: 5.286rem;
+	color: #F7B83A;
+	
+}
+footer>div>a.clearing {
+	display: block;
+	margin-left: 1.2rem;
+	width: 5.286rem;
+	height: 5.286rem;
+	line-height: 5.286rem;
+	background: #F7B83A;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid #F7B83A;
+	text-align: center;
+}
+.btn a {
+	margin: 0 auto;
+	display: block;
+	background: #F7B83A;
+	color: #fff;
+	padding: .6rem;
+	font-size: .9rem;
+	width: 60%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.btn {
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	background: #fff;
+	padding: .5rem 0;
+}
+.s-title{
+	overflow: hidden;
+	padding: .8rem 1.5rem;
+}
+.s-title .time {
+	float: left;
+	font-size: .8rem;
+	font-weight: normal;
+}
+.s-title .tip {
+	float: right;
+	font-size: .8rem;
+	font-weight: normal;
+}

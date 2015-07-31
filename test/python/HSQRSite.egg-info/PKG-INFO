@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: HSQRSite
+Version: 0.1
+Summary: HSQRSite
+Home-page: http://www.hustascii.com
+Author: Owen wei
+Author-email: weihongxin@hustascii.com
+License: UNKNOWN
+Description: HSQRSite README
+        
+        
+        0.0
+        ---
+        
+        -  Initial version
+        
+Keywords: web pyramid pylons mongodb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application

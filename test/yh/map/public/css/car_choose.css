@@ -1,0 +1,45 @@
+#main {
+	margin: 2%;
+}
+dl {
+	margin: 0
+}
+dt,dd{
+	padding: .4rem .7rem;
+	margin: 0;
+	line-height: 2.4rem;
+	font-size: 1rem;
+}
+dt {
+	font-size:1.1em
+}
+dd {
+	background: #FFFFFF;
+	border: 1px solid #F5F5F5;
+}
+dd a{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	color:#333333;
+}
+dd .car-icon{
+	box-sizing: border-box;
+	float: left;
+	height: 2.4em;
+	width: 2.4em;
+}
+dd .car-icon> img{
+	width: 100%;
+	height: 100%;
+}
+dd .info{
+	margin-left: .9rem;
+	font-size: .9em;
+}
+.right {
+	font-size: 1.1em;
+	float: right;
+}
+

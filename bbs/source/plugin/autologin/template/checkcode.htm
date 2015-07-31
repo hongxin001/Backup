@@ -1,0 +1,30 @@
+<!--{subtemplate common/header}-->
+<style>
+<!--
+.mbw{margin-bottom: 20px !important;}
+.exfm{margin: 10px 0;padding: 10px 14px;border: 1px dashed #C2D5E3;background: #E5EDF2;}
+-->
+</style>
+<div class="mn">
+	<div class="bm bw0 mdcp">
+		<h1 class="mt">{lang autologin:appname}</h1>
+		<div class="mbw">{lang autologin:checkcode}</div>
+		<form method="post" autocomplete="off" action="plugin.php?id=autologin&sid={$sid}" class="exfm">
+			<input type="hidden" name="formhash" value="{FORMHASH}">
+			<input type="hidden" name="submit" value="yes">
+			<table cellspacing="0" cellpadding="5">
+				<tbody>
+					<tr>
+					<th>{lang autologin:code}</th>
+					<td><input type="text" name="code" id="code" class="px"></td>
+					</tr>
+					<tr>
+					<th>&nbsp;</th>
+					<td><button type="submit" name="codesubmit" id="codesubmit" class="pn" value="true"><strong>{lang autologin:codesubmit2}</strong></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</div>
+<!--{subtemplate common/footer}-->

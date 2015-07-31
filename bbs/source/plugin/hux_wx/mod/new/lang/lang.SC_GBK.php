@@ -1,0 +1,17 @@
+<?php
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
+$newlang = array
+(
+	'appcmdtxt' => "×îÐÂÌû×Ó",
+	'admincmd' => 0,
+	'appver' => '1.0.0',
+	'configs' => 'fid:1,2||',
+	'notfid' => 'ÅÅ³ý°æ¿é',
+	'notfidmsg' => 'ÅÅ³ý°æ¿éID£¬¶à°æ¿éÓÃÓ¢ÎÄ¶ººÅ¸ô¿ª',
+);
+
+?>

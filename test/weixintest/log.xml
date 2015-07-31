@@ -1,0 +1,168 @@
+02:26:51 R <xml><ToUserName><![CDATA[gh_ea6a6d576281]]></ToUserName>
+<FromUserName><![CDATA[oNaeet9hWxTtkMAz5UEpiu_vggOI]]></FromUserName>
+<CreateTime>1405448811</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[文本]]></Content>
+<MsgId>6036356679647527259</MsgId>
+</xml>
+02:26:51 T <xml>
+<ToUserName><![CDATA[oNaeet9hWxTtkMAz5UEpiu_vggOI]]></ToUserName>
+<FromUserName><![CDATA[gh_ea6a6d576281]]></FromUserName>
+<CreateTime>1405448811</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这是个文本消息]]></Content>
+</xml>
+16:54:56 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405500896</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+16:54:56 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405500896</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[欢迎关注方倍工作室 ]]></Content>
+</xml>
+18:40:53 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405507252</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[文本]]></Content>
+<MsgId>6036607681832093235</MsgId>
+</xml>
+18:40:53 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405507253</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这是个文本消息]]></Content>
+</xml>
+18:55:47 R <xml><ToUserName><![CDATA[gh_ea6a6d576281]]></ToUserName>
+<FromUserName><![CDATA[oNaeet9hWxTtkMAz5UEpiu_vggOI]]></FromUserName>
+<CreateTime>1405508147</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[文本]]></Content>
+<MsgId>6036611525827007251</MsgId>
+</xml>
+18:55:47 T <xml>
+<ToUserName><![CDATA[oNaeet9hWxTtkMAz5UEpiu_vggOI]]></ToUserName>
+<FromUserName><![CDATA[gh_ea6a6d576281]]></FromUserName>
+<CreateTime>1405508147</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[这是个文本消息]]></Content>
+</xml>
+18:59:05 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405508345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[company]]></EventKey>
+</xml>
+18:59:05 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405508345</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：company]]></Content>
+</xml>
+18:59:08 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405508348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气上海]]></EventKey>
+</xml>
+18:59:08 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405508348</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气上海]]></Content>
+</xml>
+18:59:10 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405508350</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气深圳]]></EventKey>
+</xml>
+18:59:10 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405508350</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气深圳]]></Content>
+</xml>
+18:59:15 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405508355</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气深圳]]></EventKey>
+</xml>
+18:59:15 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405508355</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气深圳]]></Content>
+</xml>
+20:23:26 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405513406</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[游戏]]></EventKey>
+</xml>
+20:23:26 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405513406</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：游戏]]></Content>
+</xml>
+20:23:28 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405513408</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气深圳]]></EventKey>
+</xml>
+20:23:28 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405513408</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气深圳]]></Content>
+</xml>
+13:34:26 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405575266</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气北京]]></EventKey>
+</xml>
+13:34:26 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405575266</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气北京]]></Content>
+</xml>
+13:34:32 R <xml><ToUserName><![CDATA[gh_73043208888e]]></ToUserName>
+<FromUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></FromUserName>
+<CreateTime>1405575270</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[天气上海]]></EventKey>
+</xml>
+13:34:32 T <xml>
+<ToUserName><![CDATA[ofCJps-D6ZPknOPUglcmDg8jtAtY]]></ToUserName>
+<FromUserName><![CDATA[gh_73043208888e]]></FromUserName>
+<CreateTime>1405575272</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[点击菜单：天气上海]]></Content>
+</xml>

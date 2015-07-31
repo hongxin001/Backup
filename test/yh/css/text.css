@@ -1,0 +1,80 @@
+#main{
+				width:900px;
+				background:#ffffff/;
+				height:100%;
+				text-align:center;
+				margin-right:auto;
+                margin-left:auto;
+                padding:5%;
+        }
+        #block{
+                width:570px;
+                height:500px;
+                margin:auto;
+                background:#ffffff;
+                padding:30px 0px;
+                padding-top:30px;
+                outline-style:ridge;
+                outline-color:lightgray;
+                box-shadow: 8px 8px 8px #888888;
+                filter:alpha(Opacity=80);
+                -moz-opacity:0.8;
+                opacity: 0.8;
+        }
+        #message input{
+                background-color:lightgray/;
+                width:148px;
+                height:30px;
+                border-style:ridge;
+                border-color:lightgray;
+                border-width:2px;
+                overflow:hidden;
+        }
+        #message p{
+                font-family:"方正喵呜体","幼圆"，"楷体"，Georgia,'New York',serif;
+                font-weight:700;
+                text-align:left;
+                font-size:16px;
+                margin-bottom:30px;
+        }
+        #message label{
+                width:130px;
+                height:30px;
+                margin:0px 5px;
+                display:block;
+                overflow:hidden;
+                float:left;
+                text-align:right;
+                line-height:30px;
+        }
+        input:focus{
+                background-color:lightgray;
+        }
+        button{
+                font-family:"方正喵呜体","幼圆"，"楷体"，Georgia,'New York',serif;
+                font-size:1em;
+                width:81px;
+                height:29px;
+                font-weight:700;
+                background-image:url(static/img/b1.jpg);
+                background-size:100% 100%;
+                border-style:none;           
+        }
+        button:hover{
+                background-image:url(static/img/b2.jpg);
+        }
+        button:active{
+                background-image:url(static/img/b3.jpg);
+        }
+        p.choose{
+                margin:20px 0 20px 200px;
+                text-align:left;
+                font-family:"方正喵呜体","方正卡通简体"，"楷体"，Georgia,'New York',serif;
+                font-size:20px;
+                font-weight:500;
+                display:block;
+        }
+        span{
+                color:red;
+                font-weight:500;
+        }

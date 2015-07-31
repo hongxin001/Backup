@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[shenlan_email.plugin]]></item>
+	<item id="RevisionID"><![CDATA[23291]]></item>
+	<item id="SN"><![CDATA[2014110301ukkvxY66kK]]></item>
+	<item id="RevisionDateline"><![CDATA[1378634401]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_shenlan_email_SC_GBK.xml"><![CDATA[4cb617003e1e40b25c0c4f202f445cbe]]></item>
+		<item id="/discuz_plugin_shenlan_email_TC_UTF8.xml"><![CDATA[624b7d52de4c1d7e664f0347c03bfa72]]></item>
+		<item id="/discuz_plugin_shenlan_email_TC_BIG5.xml"><![CDATA[3465ad1703809992057499126f71c384]]></item>
+		<item id="/discuz_plugin_shenlan_email_SC_UTF8.xml"><![CDATA[e6231abee8672ab0a84130b514a31aff]]></item>
+	</item>
+</root>

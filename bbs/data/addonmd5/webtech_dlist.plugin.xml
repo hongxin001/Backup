@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[webtech_dlist.plugin]]></item>
+	<item id="RevisionID"><![CDATA[40669]]></item>
+	<item id="SN"><![CDATA[2014103004wQZaPrQ68R]]></item>
+	<item id="RevisionDateline"><![CDATA[1413770401]]></item>
+	<item id="Data">
+		<item id="/table/table_webtech_dlist.php"><![CDATA[2ffd98b0d28ab85a8315db1264f4bc5f]]></item>
+		<item id="/table/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/dlist_attachments.htm"><![CDATA[692f465f9617f8e2cf39e203b731d94a]]></item>
+		<item id="/template/viewthread_top_script.htm"><![CDATA[6a0ea9d23bdce0de00cbbc5b9a29b87a]]></item>
+		<item id="/template/extend_common.css"><![CDATA[7506cab5c66632bb662f71b853cd0086]]></item>
+		<item id="/discuz_plugin_webtech_dlist_TC_UTF8.xml"><![CDATA[a58614ab3c860df3e7ecdbf0f964b096]]></item>
+		<item id="/discuz_plugin_webtech_dlist_SC_GBK.xml"><![CDATA[f6345d28dc18ff79f68d290d1be1a327]]></item>
+		<item id="/uninstall.php"><![CDATA[82da607631d09ea972ed05d833f59027]]></item>
+		<item id="/discuz_plugin_webtech_dlist_TC_BIG5.xml"><![CDATA[e2c7ae82fe90e700ca9758e7d1c3c10b]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/install.php"><![CDATA[729b458dd2acb78bc249361b331c681b]]></item>
+		<item id="/dlist.class.php"><![CDATA[7daea43943908b933b88bbb66bceebfc]]></item>
+		<item id="/ajax.inc.php"><![CDATA[a0b12a390c96dbb3271a7af426fa1740]]></item>
+		<item id="/discuz_plugin_webtech_dlist_SC_UTF8.xml"><![CDATA[a5c7675ad2e5688612c27495ea5bbf3f]]></item>
+	</item>
+</root>

@@ -1,0 +1,50 @@
+.media-list:after {
+	display: block;
+	content: 'clear';
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.media-list {
+	margin-top: 2%;
+}
+.media {
+	border-bottom: 2px solid #F5F5F5;
+}
+
+.media {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.media>a{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+.media-body {
+	font-size: 1em;
+}
+.media .media-body h2{
+	margin-left: .4em;
+	font-size: .75em;
+}
+p {
+	margin: 0;
+}
+ del.del-p {
+	font-size: .8em;
+	margin-bottom: .5.25em;
+	margin-left: .375em;
+}
+.price {
+	margin-left: .3rem;
+	/*margin-bottom: .6rem;*/
+	font-weight: bold;
+	font-size: 1em;
+	color: #F7B83A;
+}
+p.‎accessories {
+	margin-top: .33em;
+	margin-bottom: .89em;
+	font-weight: bold;
+	font-size: .9em;
+}

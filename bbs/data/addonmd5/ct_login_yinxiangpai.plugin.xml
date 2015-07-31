@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ct_login_yinxiangpai.plugin]]></item>
+	<item id="RevisionID"><![CDATA[27811]]></item>
+	<item id="SN"><![CDATA[20141102238Eqc4Jq4w2]]></item>
+	<item id="RevisionDateline"><![CDATA[1387166401]]></item>
+	<item id="Data">
+		<item id="/template/js/jquery-1.6.1.min.js"><![CDATA[a34f78c3aecd182144818eb4b7303fda]]></item>
+		<item id="/template/js/webluker.js"><![CDATA[9b79b91de15b0360b902ef5b2c03b3cc]]></item>
+		<item id="/template/images/taobao.jpg"><![CDATA[e22972d23b6179adc6d0f377f5fb7ea6]]></item>
+		<item id="/template/images/xinlang.jpg"><![CDATA[8467ff21ff64e2f9fd311aaa44091409]]></item>
+		<item id="/template/images/logo.png"><![CDATA[8277ad26eadd58e4c227fb68b9f5e7e2]]></item>
+		<item id="/template/images/Thumbs.db"><![CDATA[e5cc02bb699e2088fb7da31b2ae3fddc]]></item>
+		<item id="/template/images/c.png"><![CDATA[7bce5947041023349ee2e4c0cc613d61]]></item>
+		<item id="/template/images/360.jpg"><![CDATA[167dd42befc2ab2fb8eea97600541f8c]]></item>
+		<item id="/template/images/bg.jpg"><![CDATA[c0a24bdf6012914014d06c2eaf9089b3]]></item>
+		<item id="/template/images/qq.jpg"><![CDATA[94eb2d46527bcee4be2a91c502d0b77d]]></item>
+		<item id="/template/images/login_btn.png"><![CDATA[a2d7f8fd3f743a3c99789d8ce8ed0471]]></item>
+		<item id="/template/more_ct.htm"><![CDATA[5681b9968ecfd649838216f9c58c031d]]></item>
+		<item id="/template/index.htm"><![CDATA[ed718fe698e374f7732461180a19056f]]></item>
+		<item id="/template/css/tri.gif"><![CDATA[36587b090d1a20ea732dac58e2a8568e]]></item>
+		<item id="/template/css/Tooltips.css"><![CDATA[5b9fa172330bad1d5167fef32f989d80]]></item>
+		<item id="/discuz_plugin_ct_login_yinxiangpai_SC_UTF8.xml"><![CDATA[97956f825386906d0acd2425d0f1b496]]></item>
+		<item id="/Thumbs.db"><![CDATA[17b3c508caf049542c1f9b3d3e615b46]]></item>
+		<item id="/discuz_plugin_ct_login_yinxiangpai_TC_UTF8.xml"><![CDATA[ae9bc3f9456bace45027447ae7316869]]></item>
+		<item id="/ct_login.class.php"><![CDATA[9b0547ac7bd22c4e2cb1276f61452be1]]></item>
+		<item id="/discuz_plugin_ct_login_yinxiangpai_SC_GBK.xml"><![CDATA[1182170267fa830aa9ed6f87fe8126f7]]></item>
+		<item id="/discuz_plugin_ct_login_yinxiangpai_TC_BIG5.xml"><![CDATA[3c064011e35a6d9edadad4bc1f85f841]]></item>
+		<item id="/more_ct.inc.php"><![CDATA[c54478c16165918385a2c47fe2e132b8]]></item>
+		<item id="/index.inc.php"><![CDATA[6db01f86079cbb6014124ff9c2a6d1ea]]></item>
+	</item>
+</root>

@@ -1,0 +1,76 @@
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Cache-control" content="{if $_G['setting']['mobile'][mobilecachetime] > 0}{$_G['setting']['mobile'][mobilecachetime]}{else}no-cache{/if}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+<meta name="keywords" content="{if !empty($metakeywords)}{echo dhtmlspecialchars($metakeywords)}{/if}" />
+<meta name="description" content="{if !empty($metadescription)}{echo dhtmlspecialchars($metadescription)} {/if},$_G['setting']['bbname']" />
+<title><!--{if !empty($navtitle)}-->$navtitle - <!--{/if}--><!--{if empty($nobbname)}--> $_G['setting']['bbname'] - <!--{/if}--> {lang waptitle} - Powered by Discuz!</title>
+
+<script src="{STATICURL}js/mobile/jquery-1.8.3.min.js?{VERHASH}"></script>
+<script type="text/javascript" src="./template/strong_mobile/img/js/tabulous.js"></script>
+<script type="text/javascript" src="./template/strong_mobile/img/js/js.js"></script>
+<link href='./template/strong_mobile/img/style.css' rel='stylesheet' type='text/css'>
+<link href='./template/strong_mobile/img/css/index.css' rel='stylesheet' type='text/css'>
+<link href='./template/strong_mobile/img/css/phbstyle.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript">var STYLEID = '{STYLEID}', STATICURL = '{STATICURL}', IMGDIR = '{IMGDIR}', VERHASH = '{VERHASH}', charset = '{CHARSET}', discuz_uid = '$_G[uid]', cookiepre = '{$_G[config][cookie][cookiepre]}', cookiedomain = '{$_G[config][cookie][cookiedomain]}', cookiepath = '{$_G[config][cookie][cookiepath]}', showusercard = '{$_G[setting][showusercard]}', attackevasive = '{$_G[config][security][attackevasive]}', disallowfloat = '{$_G[setting][disallowfloat]}', creditnotice = '<!--{if $_G['setting']['creditnotice']}-->$_G['setting']['creditnames']<!--{/if}-->', defaultstyle = '$_G[style][defaultextstyle]', REPORTURL = '$_G[currenturl_encode]', SITEURL = '$_G[siteurl]', JSPATH = '$_G[setting][jspath]';</script>
+
+<script src="{STATICURL}js/mobile/common.js?{VERHASH}" charset="{CHARSET}"></script>
+
+<script>
+  $(document).ready(function(){
+   var limar=$(window).width()-240;
+   $("#ddtop li").css({"margin-left":limar/8,"margin-right":limar/8});
+   $("#ajax_dhk").hide();
+   $("#ajax_dhk_an").click(function(e){
+   $("#ajax_dhk").fadeToggle("slow");
+   e.stopPropagation();
+   });
+
+   $(document).click(function(){
+   $("#ajax_dhk").fadeOut();
+	});
+
+   $("#ajax_yh_xs").hide();
+   $("#ajax_yh_an").click(function(e){
+   $("#ajax_yh_xs").fadeToggle("slow");
+   e.stopPropagation();
+   });
+
+   $(document).click(function(){
+   $("#ajax_yh_xs").fadeOut();
+	});
+
+    $("#ajax_kj_xs").hide();
+    $("#ajax_kj_an").click(function(e){
+    $("#ajax_kj_xs").fadeToggle("slow");
+   	e.stopPropagation();
+   });
+    $(document).click(function(){
+	$("#ajax_kj_xs").fadeOut();
+	});
+
+    $("#lttz_lb_ajaxzbk").hide();
+    $("#ajax_zbk").click(function(){
+    $("#lttz_lb_ajaxzbk").fadeToggle("slow");
+   });
+
+
+
+
+});
+
+
+</script>
+</head>
+
+<body>
+<div id="append_parent" ></div>
+	<div id="ajaxwaitid"></div>
+<!--{hook/global_header_mobile}-->

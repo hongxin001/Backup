@@ -1,0 +1,36 @@
+<!--{template common/header}-->
+<link type="text/css" href="source/plugin/cat_danmaku/images/cat_danmaku.css" rel="stylesheet" />
+<h3 class="flb">
+	<em id="return_$_G[gp_handlekey]">{$_G["cache"]["plugin"]["cat_danmaku"]["ajaxtitle"]}</span></em>
+	<!--{if $_G[inajax]}--><span><a href="javascript:;" onclick="hideWindow('$_G[gp_handlekey]');" class="flbc" title="{lang close}">{lang close}</a></span><!--{/if}-->
+</h3>
+<form id="cat_form" name="cat_form" autocomplete="off">
+<div class="c">
+	<input type="hidden" id="cat_danmaku_id" name="cat_danmaku_id" value="1" />
+	<textarea id="cat_danmaku_message" name="cat_danmaku_message" class="cat_danmaku_b" placeholder="{$_G["cache"]["plugin"]["cat_danmaku"]["texttip"]}"></textarea>
+</div>
+<p class="o pns">
+	<button type="button" onclick="hideWindow('$_G[gp_handlekey]');" class="pn"><strong>{lang cancel}</strong></button>
+	<button type="button" onclick="cat_danmaku_submit($fast)" class="pn pnc"><strong>{lang submit}</strong></button>
+</p>
+</form>
+<script type="text/javascript">
+function cat_danmaku_submit(t){
+	var n = $('cat_danmaku_id').value;
+	var v = $('cat_danmaku_message').value;
+	if(t){
+		seditor_insertunit('fastpost', '[{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]'+v, '[/{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]', 10, 1);
+		<!--{if $autopost}-->$('fastpostform').submit();<!--{/if}-->
+	}else{
+		<!--{if $autopost}-->
+		var message = html2bbcode(getEditorContents());
+		$('e_textarea').value = message+'[{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]'+v+'[/{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]';
+		$('postform').submit();
+		<!--{else}-->
+		insertText('[{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]'+v+'[/{$_G["cache"]["plugin"]["cat_danmaku"]["dzcode"]}]',0,10);
+		<!--{/if}-->
+	}
+	hideWindow('$_G[gp_handlekey]');
+}
+</script>
+<!--{template common/footer}-->

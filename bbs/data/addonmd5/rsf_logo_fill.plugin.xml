@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[rsf_logo_fill.plugin]]></item>
+	<item id="RevisionID"><![CDATA[37255]]></item>
+	<item id="SN"><![CDATA[2014110302tXUXxGHyEr]]></item>
+	<item id="RevisionDateline"><![CDATA[1403496001]]></item>
+	<item id="Data">
+		<item id="/template/1402988065451.png"><![CDATA[58aec9407fb7eb35d5921f251328049b]]></item>
+		<item id="/template/tpl.htm"><![CDATA[cec799b59385e557917b19f373229750]]></item>
+		<item id="/template/readme.htm"><![CDATA[695a32d597618d589004c02538209ad5]]></item>
+		<item id="/template/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/fill_bg.jpg"><![CDATA[f271fde00791cf3a3d02536c51eafaa5]]></item>
+		<item id="/discuz_plugin_rsf_logo_fill_SC_GBK.xml"><![CDATA[19656f4b8162e14309188a96d0388d7c]]></item>
+		<item id="/rsf_readme.inc.php"><![CDATA[2e9e08a5281aa4dbcd3c789b51258b92]]></item>
+		<item id="/discuz_plugin_rsf_logo_fill_TC_UTF8.xml"><![CDATA[8d16aab3e3ef83bfa25d9292de370f5b]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_rsf_logo_fill_TC_BIG5.xml"><![CDATA[f1f4491194a39aea4ea688e25cdae1b5]]></item>
+		<item id="/rsf_logo_fill.class.php"><![CDATA[52c2cc7e6751c9c7f766c0c8ea08c27c]]></item>
+		<item id="/discuz_plugin_rsf_logo_fill_SC_UTF8.xml"><![CDATA[2729c3fb8afcf04530ba3a46edd32001]]></item>
+	</item>
+</root>

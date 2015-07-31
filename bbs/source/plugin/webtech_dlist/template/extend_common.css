@@ -1,0 +1,14 @@
+/** forum::viewthread **/
+.datalist p { font-weight: bold; margin-bottom: 15px; font-size: 14px; }
+.datalist { zoom: 1; }
+.datalist table { margin-bottom: 30px; width: 100%; border: 1px solid #E6E7E1; }
+.datalist th, .datalist td { padding: 4px 5px; border: 1px solid #E6E7E1; font-weight: 400; }
+.datalist th img { vertical-align: top; }
+.datalist table .stat_subject { border-right: none; }
+.datalist table .stat_num { padding-right: 15px; text-align: right; border-left: none; }
+.datalist .datatable { margin-bottom: 10px; }
+.datalist .datatable, .datalist .datatable th, .datalist .datatable td { border-width: 1px 0; }
+.datalist .fixtable { table-layout: fixed; }
+.colplural, .colplural th, .colplural td, th.highlight, td.highlight { background-color: #F5F5F5; }
+.dlist_tipc { float:right;width:200px; }
+/** end **/

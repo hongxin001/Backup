@@ -1,0 +1,103 @@
+<!--{template ranklist/header}-->
+<!--{template common/hd_daohang}-->
+
+	<div id="ddtop">
+	<div class="ddnavbtn">
+			<ul>
+            <!--{eval  $forumlist = getranklist_forum('12','threads');}-->
+    	    <!--{loop $forumlist $forum}-->
+
+				<li> <!--{if $_G[forum][icon]}-->
+				<a href="forum.php?mod=forumdisplay&fid=$forum['fid']" ><img src="data/attachment/common/$_G[forum][icon]" alt="$_G['forum'][name]" /></a>
+				<!--{else}-->
+				<a href="forum.php?mod=forumdisplay&fid=$forum['fid']">
+				<img src="./template/strong_mobile/img/tb<!--{eval}-->echo rand(1,2);<!--{/eval}-->
+				{if $forum[folder]}_new{/if}.bmp" alt="$forum[name]" />
+				<span>$forum['name']</span></a></li>
+			<!--{/if}-->
+	        <!--{/loop}-->
+			</ul>
+		</div>
+	</div>
+    <div id="tabs4">
+		<ul>
+			<li><a href="#tabs-1" title="">{echo $lang['yuehot'];}</a></li>
+			<li><a href="#tabs-2" title="">{echo $lang['zhuohot'];}</a></li>
+			<li><a href="#tabs-3" title="">{echo $lang['shouchang'];}</a></li>
+			<li><a href="#tabs-4" title="">{echo $lang['luntanmingxing'];}</a></li>
+		</ul>
+
+		<div id="tabs_container">
+
+		<div id="tabs-1">
+			<ul>
+			<!--{eval  $threadlist = getranklist_thread('20','replies','thismonth');}-->
+		    <!--{loop $threadlist $thread}-->
+
+				<li class="lihover" onclick="window.location.href='forum.php?mod=viewthread&tid={$thread['tid']}';">
+					<a href="forum.php?mod=viewthread&tid={$thread['tid']}">$thread['subject']</a>
+                	<span>{lang ranklist_thread_reply}:$thread['replies']</span>
+			    </li>
+			<!--{/loop}-->
+			</ul>
+		</div>
+
+		<div id="tabs-2">
+			<ul>
+			    <!--{eval  $threadlist = getranklist_thread('20','replies','thisweek');}-->
+		    	<!--{loop $threadlist $thread}-->
+
+				<li>
+					<a href="forum.php?mod=viewthread&tid={$thread['tid']}" >$thread['subject']</a>
+                	<span>{lang ranklist_thread_reply}:$thread['replies']</span>
+			    </li>
+			<!--{/loop}-->
+			</ul>
+
+		</div>
+
+		<div id="tabs-3">
+			<ul>
+				<!--{eval  $threadlist = getranklist_thread('20','favtimes','all');}-->
+		    	<!--{loop $threadlist $thread}-->
+
+				<li>
+					<a href="forum.php?mod=viewthread&tid={$thread['tid']}" >$thread['subject']</a>
+
+                	<span>{lang ranklist_thread_favorite}:$thread['favtimes']</span>
+			    </li>
+			<!--{/loop}-->
+			</ul>
+		</div>
+		<div id="tabs-4">
+			   <ul>
+			   {eval $member = getranklist_member('18','credit','all');}
+				<!--{loop $member $key $value}-->
+				<li>
+					<a href="home.php?mod=space&uid=$value[uid]" ><!--{avatar($value[uid],small)}--></a>
+	                <span class="uname">$value['username']</span>
+                    <span>{lang credit_num}: $value[credits]</span>
+	            </li>
+				<!--{/loop}-->
+				</ul>
+		</div>
+
+		</div><!--End tabs container-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--{template common/footer}-->

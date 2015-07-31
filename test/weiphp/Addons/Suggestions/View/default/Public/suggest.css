@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document by jacy use in suggest */
+.textarea textarea{
+        resize: none;
+        overflow: hidden;
+}

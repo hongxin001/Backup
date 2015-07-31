@@ -1,0 +1,67 @@
+<!--{if $_G['setting']['mobile']['mobilehotthread'] && $_GET['forumlist'] != 1}-->
+<!--{template common/header}-->
+<!--{template forum/guide_index}-->	
+<!--{template common/footer}-->
+<!--{eval exit;}-->
+<!--{/if}-->
+<!--{template common/header}-->
+<!--{hook/index_top_mobile}-->
+<!-- main forumlist start -->
+<div class="wp wm " id="wp">
+	<!--{loop $catlist $key $cat}-->
+	<div class=" bmw fl">
+		<div class="subforumshow bm_h cl" href="#sub_forum_$cat[fid]">
+			<span class="o"><img src="./template/strong_mobile/images/collapsed_<!--{if !$_G[setting][mobile][mobileforumview]}-->yes<!--{else}-->no<!--{/if}-->.png"></span>
+		<h2><a href="javascript:;">$cat[name]</a></h2>
+		</div>
+		<div id="sub_forum_$cat[fid]" class="sub_foruml bm_c">
+			<ul>
+				<!--{loop $cat[forums] $forumid}-->
+				<!--{eval $forum=$forumlist[$forumid];}-->
+				<li>
+					<div class="subipc"><!--{if $forum[icon]}-->
+									$forum[icon]
+								<!--{else}-->
+									<a href="forum.php?mod=forumdisplay&fid={$forum['fid']}&mobile=2">
+									<img src="./template/strong_mobile/images/tb.png" alt="$forum[name]" /></a>
+					<!--{/if}-->
+					</div>
+				<a href="forum.php?mod=forumdisplay&fid={$forum['fid']}" >
+					<div class="subblock">
+						<h3>{$forum[name]}<!--{if $forum[todayposts] > 0}--><span class="num">$forum[todayposts]</span><!--{/if}--></h3>
+						<p>$forum[description]</p>
+
+					</div>
+
+				</a></li>
+				<!--{/loop}-->
+			</ul>
+		</div>
+	</div>
+	<!--{/loop}-->
+</div>
+<!-- main forumlist end -->
+<!--{hook/index_middle_mobile}-->
+<script type="text/javascript">
+	(function() {
+		<!--{if !$_G[setting][mobile][mobileforumview]}-->
+			$('.sub_forum').css('display', 'block');
+		<!--{else}-->
+			$('.sub_forum').css('display', 'none');
+		<!--{/if}-->
+		$('.subforumshow').on('click', function() {
+			var obj = $(this);
+			var subobj = $(obj.attr('href'));
+			if(subobj.css('display') == 'none') {
+				subobj.css('display', 'block');
+				obj.find('img').attr('src', './template/strong_mobile/images/collapsed_yes.png');
+			} else {
+				subobj.css('display', 'none');
+				obj.find('img').attr('src', './template/strong_mobile/images/collapsed_no.png');
+			}
+		});
+	 })();
+</script>
+
+
+<!--{template common/footer}-->

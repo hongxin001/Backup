@@ -1,0 +1,73 @@
+
+<!--{template common/header}-->
+<!--{if $tagname}-->
+
+
+<h1 class="tagitem"><img class="vm" src="{IMGDIR}/tag.gif" alt="tag" /> $tagname</h1>
+<div class="threadlist">
+	<ul>
+	<!--{if empty($showtype) || $showtype == 'thread'}-->
+
+				<!--{if $threadlist}-->
+
+						<!--{loop $threadlist $thread}-->
+						<li><a href="forum.php?mod=viewthread&tid=$thread[tid]" >
+								<!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+								<img src="./template/strong_mobile/images/icon_top.png">
+							<!--{elseif $thread['digest'] > 0}-->
+								<img src="./template/strong_mobile/images/icon_digest.png">
+							<!--{elseif $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+								<img src="./template/strong_mobile/images/icon_tu.png">
+							<!--{elseif $thread['special'] == 1}-->
+								<img src="./template/strong_mobile/images/pollsmall.png"  />
+							<!--{elseif $thread['special'] == 3}-->
+								<img src="./template/strong_mobile/images/rewardsmall.png"  />
+							<!--{elseif $thread['special'] == 2}-->
+								<img src="./template/strong_mobile/images/tradesmall.png"  />
+							<!--{/if}-->
+												{$thread[subject]}
+							<span class="by">$thread[author]&nbsp;&nbsp;$thread[dateline]</span>
+							</a>
+							<span class="num">{$thread[replies]}</span>
+
+						</li>
+						<!--{/loop}-->
+
+					<!--{if empty($showtype)}-->
+
+							<li class="gengduo"><a href="misc.php?mod=tag&id=$id&type=thread">{lang more}...</a></li>
+
+					<!--{else}-->
+						<!--{if $multipage}--><div class="pgs mtm cl">$multipage</div><!--{/if}-->
+					<!--{/if}-->
+				<!--{else}-->
+					{lang no_content}
+				<!--{/if}-->
+
+	<!--{/if}-->
+</ul>
+</div>
+
+<!--{else}-->
+<h1 class="tagitem"><img class="vm" src="{IMGDIR}/tag.gif" alt="tag" />  {lang tag}: $searchtagname</h1>
+
+				<form method="post" action="misc.php?mod=tag" class="pns">
+	<div class="search">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td>
+							<input type="text" name="name" class="input"  />
+						</td>
+						<td width="66" align="center" >
+							<button type="submit" class="button2" >{lang search}</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+</form>
+				<div class="gengduo">{lang empty_tags}</div>
+
+<!--{/if}-->
+<!--{template common/footer}-->

@@ -1,0 +1,74 @@
+.date {
+	margin: 6% 2%;
+	width: 96%;
+}
+dl.date dt,
+dl.date dd {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+.date dt {
+	background: #F7B83A;
+	color: #FFFFFF;
+	font-size: .9rem;
+	padding: .6rem 1rem;
+	
+	
+}
+.date dd {
+	background: #FFF;
+	color: #262626;
+}
+.date dd.control {
+	border-bottom: 1px solid #e8e8e8;
+	padding: 1.2rem;
+	display: block;
+	display: -webkit-box;  
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
+	-webkit-box-pack: justify; 
+	-webkit-justify-content: space-around;
+			justify-content: space-around;
+	
+}
+dd>section {
+	width: 30%;
+	height: 8.7rem;
+}
+dd>section>span {
+	display: block;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	font-size: 2rem;
+	background: #F7B83A;
+	color: #fff;
+}
+dd>section>span#year,
+dd>section>span#month,
+dd>section>span#day {
+	height: 3.7rem;
+	line-height: 3.7rem;
+	background: #E8E8E8;
+	color: #333;
+	font-size: 1.1rem;
+}
+
+dd {
+	padding: 1.14rem;
+}
+dd>a {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: #F7B83A;
+	color: #fff;
+	font-size: .9rem;
+	border-radius: 1rem;
+	box-sizing: border-box;
+	padding: .6rem;
+	width: 70%;
+}

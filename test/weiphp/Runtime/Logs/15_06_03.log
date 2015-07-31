@@ -1,0 +1,9 @@
+[ 2015-06-03T21:49:09+08:00 ] 140.207.54.79 /weiphp/index.php?s=/home/weixin/index.html&signature=0082a5853e9827e7b0e9943269cfb5e1d15c8dc8&timestamp=1433339348&nonce=1483525837
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8] Undefined index: doNotInit /home/www/test/weiphp/Application/Home/Model/WeixinModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect(): Can't connect to local MySQL server through socket '/tmp/mysqld.sock' (2) /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+ERR: Can't connect to local MySQL server through socket '/tmp/mysqld.sock' (2)
+

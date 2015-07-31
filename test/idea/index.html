@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--Declare page as mobile friendly --> 
+
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+
+<!-- Declare page as iDevice WebApp friendly -->
+
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+
+
+<!-- Page Title -->
+
+<title>创意征集</title>
+
+
+
+<!-- Stylesheet Load -->
+
+<link href="css/style.css"				rel="stylesheet" 	type="text/css">
+
+<link href="css/framework-style.css" 	rel="stylesheet" 	type="text/css">
+
+<link href="css/framework.css" 			rel="stylesheet" 	type="text/css">
+
+<link href="css/bootstrap.css"          rel="stylesheet"    type="text/css">
+
+
+
+
+<!--Page Scripts Load -->
+
+<script src="js/jquery.min.js"		type="text/javascript"></script>	
+
+<script src="js/jquery-ui-min.js"  type="text/javascript"></script>
+
+<script src="js/contact.js"		type="text/javascript"></script>
+
+<script src="js/framework.js"		type="text/javascript"></script>
+
+</head>
+
+
+
+<body>
+
+<div class="background">  
+<img src="images/bk2.jpg" height="100%" width="100%"/></div>
+
+
+<div id="preloader">
+
+	<div id="status">
+
+    	<p class="center-text">
+
+			加载中…...
+
+            <em>加载速度取决于你的网速快慢!</em>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="content-box">
+
+    <div class="content">
+
+<!--         <div class="decoration"></div> -->
+
+    	<div class="container no-bottom">
+
+            <div class="contact-form no-bottom"> 
+
+                <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
+
+                    <div class="notification-box blue-box">
+
+                        <h4>YOUR MESSAGE HAS BEEN SENT!</h4>
+
+                        <a href="#" class="close-notification"></a>
+
+                        <div class="clear"></div>
+
+                        <p>
+
+                            您的创意已成功提交！</br>
+
+                            感谢您对此次比赛的支持！</br>
+                            
+                            如果参赛队伍采用了您的创意，我们会以短信的形式通知您。</br>
+
+                            欢迎联系此次比赛主办方。</br>
+
+                            联系方式：*********** </br> 
+
+                        </p>  
+
+                    </div> 
+
+                </div>
+
+            <div>
+                <form action="" method="post" class="contactForm" id="contactForm">
+
+
+                        <div class="formValidationError" id="contactNameFieldError">
+
+                            <div class="small-notification red-notification no-bottom">
+
+                                <p>您的姓名不能为空！</p>
+
+                            </div>
+
+                        </div>             
+
+                        <div class="formValidationError" id="contactTelFieldError">
+
+                            <div class="small-notification red-notification no-bottom">
+
+                                <p>您的电话不能为空！</p>
+
+                            </div>
+
+                        </div> 
+
+                        <div class="formValidationError" id="contactTelFieldError2">
+
+                            <div class="small-notification red-notification no-bottom">
+
+                                <p>请输入有效的电话号码！</p>
+
+                            </div>
+
+                        </div> 
+
+                        <div class="formValidationError" id="contactMessageTextareaError">
+
+                            <div class="small-notification red-notification no-bottom">
+
+                                <p>请写下您的创意吧！</p>
+
+                            </div>
+
+                        </div>   
+
+                        <!-- <div class="form-group">
+                            <label class="contactNameField" for="contactNameField">称呼</label>
+                            <input type="text" class="form-control requiredField" id="contactNameField" placeholder="Enter name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactTelField">联系电话</label>
+                            <input type="text" class="form-control requiredField requiredTelField" id="contactTelField" placeholder="Enter phone number">
+                        </div> -->
+
+                        <div class="form-group">
+
+                            <label class="contactNameField" for="contactNameField">称呼</label>
+
+                            <input type="text" name="contactNameField" value="Enter name" class="contactField requiredField" id="contactNameField"/>
+
+                        </div>
+
+                        <div class="formFieldWrap">
+
+                            <label class="contactTelField" for="contactTelField">联系电话</label>
+
+                            <input type="text" name="contactTelField" value="Enter phone number" class="contactField requiredField requiredTelField" id="contactTelField"/>
+
+                        </div>
+
+                        <div class="formTextareaWrap">
+
+                            <label class="field-title contactMessageTextarea" for="contactMessageTextarea">您的创意</label>
+
+                            <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
+
+                        </div>
+
+                        <div class="formSubmitButtonErrorsWrap">
+
+                            <input type="submit" class="buttonWrap button-minimal grey-minimal contactSubmitButton" id="contactSubmitButton" value="提 交" data-formId="contactForm"/>
+
+                        </div>
+
+                </form>       
+            </div>
+        </div>
+    </div>
+
+
+
+<!--         <div class="decoration"></div>      
+
+        <p class="center-text uppercase footer-text"> Powered by <a href="" target="_blank">ASCII</a>
+        </p> -->
+
+
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+

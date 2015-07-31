@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+        <head>
+                <meta name="viewport" content="width=device-width,initial-scale=1,maxinum-scale=1,user-scalable=no">
+                <script src="js/jquery-2.1.0.js"></script>
+                <script src="bootstrap/js/bootstrap.min.js"></script>
+                <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+                <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+              
+                <style>
+                        .container{
+                                margin-left: auto;
+                                margin-right: auto;
+                        }
+                        .pull-left {
+                                float: left !important;
+                        }
+                        .pull-right {
+                                float: right !important;
+                        }
+
+                        // Usage as mixins
+                        .element {
+                                .pull-left();
+                        }
+                        .another-element {
+                                .pull-right();
+                        }
+                        nav{
+                                opacity: 0.8;
+                        }
+                        body{
+                                padding-top: 60px; 
+                        }
+                </style>
+
+        </head>
+        <body>
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Brand</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <button class="btn btn-primary navbar-btn">TEst</button>
+                        </div>
+                </nav>
+                <div class="container">
+                       
+                        <div class="pull-left">...</div>
+                        <div class="pull-right">...</div>
+                        <div class="jumbotron">
+                                <h1>Hello, world!</h1>
+                                <p>...</p>
+                                <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+                        </div>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                        <span class="sr-only">45% Complete</span>
+                                </div>
+                               
+                        </div>
+                        <div class="well ">
+                                        <p>qwerriiasiasddjgasudsidihdaihgg;jg0</p>
+                        </div>
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+                        
+                </div>
+
+        </body>
+</html>
+

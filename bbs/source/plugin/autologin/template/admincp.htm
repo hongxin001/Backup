@@ -1,0 +1,99 @@
+<!--{if !$info}-->
+<div class="bbda pbm mbm">
+<p>
+<span class="xi1">{lang autologin:tips}</span>{lang autologin:tips_1}
+</p>
+</div>
+<form action="home.php?mod=spacecp&ac=plugin&id=autologin:admincp" method="post" autocomplete="off">
+	<input type="hidden" value="{FORMHASH}" name="formhash">
+	<table cellspacing="0" cellpadding="0" class="tfm">
+		<tbody>
+			<tr>
+				<th><span class="rq">*</span>{lang autologin:sid}</th>
+				<td>
+					<input type="text" name="code" id="code" class="px">
+					<p class="d" id="chk_code"><span class="xi1">{lang autologin:tips}</span>{lang autologin:tips_sid}</p>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="rq">*</span>{lang autologin:password}</th>
+				<td>
+					<input type="password" name="password" id="password" class="px">
+					<p class="d" id="chk_password"><span class="xi1">{lang autologin:tips}</span>{lang autologin:tips_password}</p>
+				</td>
+			</tr>
+			<tr>
+				<th>{lang security_question}</th>
+				<td>
+					<select name="questionid" id="questionid">
+						<option value="0">{lang security_question_0}</option>
+						<option value="1">{lang security_question_1}</option>
+						<option value="2">{lang security_question_2}</option>
+						<option value="3">{lang security_question_3}</option>
+						<option value="4">{lang security_question_4}</option>
+						<option value="5">{lang security_question_5}</option>
+						<option value="6">{lang security_question_6}</option>
+						<option value="7">{lang security_question_7}</option>
+					</select>
+					<p class="d"></p>
+				</td>
+			</tr>
+
+			<tr>
+				<th>{lang autologin:security_answer}</th>
+				<td>
+					<input type="text" name="answer" id="answer" class="px" />
+					<p class="d"></p>
+				</td>
+			</tr>			
+			<tr>
+				<th>&nbsp;</th>
+				<td><button type="submit" name="codesubmit" value="true" class="pn pnc"><strong>{lang autologin:codesubmit}</strong></button></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<!--{else}-->
+<script type="text/javascript">
+function autoLoginURL(sURL,sTitle){
+    try{
+        window.external.AddFavorite(sURL,sTitle);
+    }catch(e){
+        try{
+            window.sidebar.addPanel(sTitle, sURL,"");
+        }catch(e){
+            alert("{lang autologin:tips_favorite}");
+        }
+    }
+}
+</script>
+<div class="bbda pbm mbm">
+{lang autologin:tips_use}
+</div>
+<table cellspacing="0" cellpadding="0" class="tfm">
+<tbody>
+<tr>
+<th colspan="2" class="xs2 xw1">{lang autologin:style_1}</th>
+</tr>
+<tr>
+<th>{lang autologin:style_url}</th>
+<td class="pns">
+<input type="text" class="px vm" onclick="this.select();setCopy('this.value, '{lang autologin:style_copy_ok}');" value="{$url}" size="100">
+<button type="submit" class="pn vm" onclick="setCopy('{$url}', '{lang autologin:style_copy_ok}');"><em>{lang autologin:style_copy}</em></button>
+</td>
+</tr>
+<tr>
+<th colspan="2" class="xs2 xw1 ptw">{lang autologin:style_2}</th>
+</tr>
+<tr>
+<th colspan="2">{lang autologin:style_fav_1}&nbsp; <a href="javascript:autoLoginURL('{$url}','{$_G['setting']['bbname']}');" class="xi2">{lang autologin:style_fav_2}</a></th>
+</tr>
+<tr>
+<th colspan="2" class="xs2 xw1 ptw">{lang autologin:style_3}</th>
+</tr>
+<tr>
+<th colspan="2">{lang autologin:style_down_1}&nbsp; <a href="plugin.php?id=autologin:url" target="_balnk" class="xi2">{lang autologin:style_down_2}</a></th>
+</tr>
+</tbody>
+</table>
+<!--{/if}-->

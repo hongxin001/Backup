@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ljtieziyj.plugin]]></item>
+	<item id="RevisionID"><![CDATA[12141]]></item>
+	<item id="SN"><![CDATA[2014110301lxQ8B9SB22]]></item>
+	<item id="RevisionDateline"><![CDATA[1408690802]]></item>
+	<item id="Data">
+		<item id="/table/table_alj_mail.php"><![CDATA[9851c17e24f4ae2568136df2d22eca22]]></item>
+		<item id="/table/table_alj_mail_log.php"><![CDATA[6be886ba0670d7982aae48f1798c5da8]]></item>
+		<item id="/table/table_alj_mail_reply.php"><![CDATA[ce774af4152a2161bb6e1a8fdbc06bcc]]></item>
+		<item id="/discuz_plugin_ljtieziyj_TC_BIG5.xml"><![CDATA[ce449d18044d5bfb7b87f938ce6a0a48]]></item>
+		<item id="/template/tieziyj.htm"><![CDATA[d1929a01fb1bc6cb4bafaafcd7153897]]></item>
+		<item id="/template/htts.htm"><![CDATA[961ac36100d2882611a6249c49505f86]]></item>
+		<item id="/template/log.htm"><![CDATA[9fed0118d50bbe73a8eb0265dc37272f]]></item>
+		<item id="/ljtieziyj.inc.php"><![CDATA[71416cb834cb60d7006fd4a0c63d0560]]></item>
+		<item id="/sj.class.php"><![CDATA[a021d8d28cbe4ff060609c29ff87f8cb]]></item>
+		<item id="/uninstall.php"><![CDATA[7c53903eb7cdba1ed57b7aa7171ebbfa]]></item>
+		<item id="/upgrade.php"><![CDATA[32dc075c191fe417973fccd468cd7556]]></item>
+		<item id="/tieziyj.class.php"><![CDATA[f10f18e3387e7152f3b5e7185f742af1]]></item>
+		<item id="/discuz_plugin_ljtieziyj_SC_UTF8.xml"><![CDATA[b2baf45d314640080a944f9233767119]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/module/ljtieziyj_reply_yj.php"><![CDATA[dc1e6045d76394a1036f090d146993d8]]></item>
+		<item id="/module/ljtieziyj_index.php"><![CDATA[22c5a79b7a1f1b4f8b624c8f5de4ca62]]></item>
+		<item id="/install.php"><![CDATA[32dc075c191fe417973fccd468cd7556]]></item>
+		<item id="/log.inc.php"><![CDATA[26dbd882346fc953470c550717f08605]]></item>
+		<item id="/discuz_plugin_ljtieziyj_SC_GBK.xml"><![CDATA[73f686465e54c53f5a5df7c70b7184b9]]></item>
+		<item id="/discuz_plugin_ljtieziyj_TC_UTF8.xml"><![CDATA[52562d81f34dda4d63804ac9b52ed1e7]]></item>
+	</item>
+</root>

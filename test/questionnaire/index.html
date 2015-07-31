@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>问卷</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.2.min.css" />
+    <style>
+    #other{display: none;}
+	</style>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.2.min.js"></script>
+	<script type="text/javascript" src="signup.js"></script>
+</head> 
+</html><body> 
+
+<div id="user" data-role="page">
+
+	<div data-role="header">
+		<h1>问卷</h1>
+	</div><!-- /头部 -->
+
+	<div data-role="content">
+            <ul data-role='listview'>
+                
+                
+                   <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>1、 请谈谈我们的中国梦？</legend>
+                        <label for="1a">国家富强，民族振兴，人民幸福，实现中华民族伟大复兴</label>
+                        <input type="radio" name="t1" id="1a" value="A">
+                        <label for="1b">国家富强，民族和谐，两岸幸福，实现中华民族伟大复兴</label>
+                        <input type="radio" name="t1" id="1b" value="B">   
+                         <label for="1c">国家富强，民族和睦，人民快乐，实现中华民族伟大复兴</label>
+                        <input type="radio" name="t1" id="1c" value="C">   
+                      </fieldset>
+                </li>
+                <li>
+                    <fieldset data-role="controlgroup" >
+                        <legend>2、 社会主义核心价值观是？（多选）</legend>
+                            <label for="2a">富强、民主、文明、和谐</label>
+                            <input type="checkbox" name="t2" id="2a" value="A">
+                            <label for="2b">自由、平等、公正、法治</label>
+                            <input type="checkbox" name="t2" id="2b" value="B">
+                            <label for="2c">爱国、敬业、诚信、友善 </label>
+                            <input type="checkbox" name="t2" id="2c" value="C">  
+                    </fieldset>
+                </li>
+                
+
+                
+                 <li>
+                    <fieldset data-role="controlgroup" >
+                        <legend>3、 请说出我国的志愿精神？（多选）</legend>
+                            <label for="3a">奉献</label>
+                            <input type="checkbox" name="t3" id="3a" value="A">
+                            <label for="3b">友爱</label>
+                            <input type="checkbox" name="t3" id="3b" value="B">
+                            <label for="3c">互助 </label>
+                            <input type="checkbox" name="t3" id="3c" value="C">  
+                            <label for="3d">进步 </label>
+                            <input type="checkbox" name="t3" id="3d" value="D">  
+                    </fieldset>
+                </li>
+                
+                   <li>
+                    <fieldset data-role="controlgroup" >
+                        <legend>4、 请说出武汉精神？（多选）</legend>
+                            <label for="4a">艰苦奋斗</label>
+                            <input type="checkbox" name="t4" id="4a" value="A">
+                            <label for="4b">开拓进取</label>
+                            <input type="checkbox" name="t4" id="4b" value="B">
+                            <label for="4c">敢为人先 </label>
+                            <input type="checkbox" name="t4" id="4c" value="C">  
+                            <label for="4d">追求卓越 </label>
+                            <input type="checkbox" name="t4" id="4d" value="D">  
+                    </fieldset>
+                </li>
+              
+                   <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>5、 请说出十八届三中全会提出全面深化改革总目标？</legend>
+                        <label for="5a">完善和发展中国特色社会主义制度，推进国家治理体系和治理能力现代化。</label>
+                        <input type="radio" name="t5" id="5a" value="A" >
+                        <label for="5b">以职能转变为核心，继续简政放权、推进机构改革。</label>
+                        <input type="radio" name="t5" id="5b" value="B">   
+                         <label for="5c">建设中国特色社会主义法治体系，建设社会主义法治国家。</label>
+                        <input type="radio" name="t5" id="5c" value="C">   
+                         <label for="5d">高举中国特色社会主义伟大旗帜，以邓小平理论、“三个代表”重要思想、科学发展观为指导，解放思想，改革开放，凝聚力量，攻坚克难，坚定不移沿着中国特色社会主义道路前进，为全面建成小康社会而奋斗。</label>
+                        <input type="radio" name="t5" id="5d" value="D">   
+                      </fieldset>
+                </li>
+                
+                <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>6、 请说出十八届四中全会提出全面深化改革总目标？</legend>
+                        <label for="6a">完善和发展中国特色社会主义制度，推进国家治理体系和治理能力现代化。</label>
+                        <input type="radio" name="t6" id="6a" value="A" >
+                        <label for="6b">以职能转变为核心，继续简政放权、推进机构改革。</label>
+                        <input type="radio" name="t6" id="6b" value="B">   
+                         <label for="6c">建设中国特色社会主义法治体系，建设社会主义法治国家。</label>
+                        <input type="radio" name="t6" id="6c" value="C">   
+                         <label for="6d">高举中国特色社会主义伟大旗帜，以邓小平理论、“三个代表”重要思想、科学发展观为指导，解放思想，改革开放，凝聚力量，攻坚克难，坚定不移沿着中国特色社会主义道路前进，为全面建成小康社会而奋斗。</label>
+                        <input type="radio" name="t6" id="6d" value="D">   
+                      </fieldset>
+                </li>
+                
+                
+                <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>7、 武汉市共有多少位全国道德模范？</legend>
+                        <label for="7a">4位</label>
+                        <input type="radio" name="t7" id="7a" value="A" >
+                        <label for="7b">6位</label>
+                        <input type="radio" name="t7" id="7b" value="B">   
+                         <label for="7c">8位</label>
+                        <input type="radio" name="t7" id="7c" value="C">   
+                         <label for="7d">10位</label>
+                        <input type="radio" name="t7" id="7d" value="D">   
+                      </fieldset>
+                </li>
+                
+                <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>8、 对于武汉市创建文明城市，你是否知道？</legend>
+                        <label for="8a">知道</label>
+                        <input type="radio" name="t8" id="8a" value="A" >
+                        <label for="8b">知道一些</label>
+                        <input type="radio" name="t8" id="8b" value="B">   
+                         <label for="8c">不知道</label>
+                        <input type="radio" name="t8" id="8c" value="C">   
+                         <label for="8d">不关心</label>
+                        <input type="radio" name="t8" id="8d" value="D">   
+                      </fieldset>
+                </li>
+                
+                <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>9、 对于武汉市创建文明城市，你是否支持？</legend>
+                        <label for="9a">支持</label>
+                        <input type="radio" name="t9" id="9a" value="A" >
+                        <label for="9b">不支持</label>
+                        <input type="radio" name="t9" id="9b" value="B">   
+                         <label for="9c">不关心</label>
+                        <input type="radio" name="t9" id="9c" value="C">   
+                      </fieldset>
+                </li>
+                
+                <li data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <legend>10、 对于武汉市创建文明城市所开展各项工作，你是否满意？</legend>
+                        <label for="10a">满意</label>
+                        <input type="radio" name="t10" id="10a" value="A" >
+                        <label for="10b">不满意</label>
+                        <input type="radio" name="t10" id="10b" value="B">   
+                         <label for="10c">不关心</label>
+                        <input type="radio" name="t10" id="10c" value="C">   
+                      </fieldset>
+                </li>
+                
+                <li data-role='fielcontain' data-inset='true' >
+                    <label for='name' class="ui-hidden-accessible" >姓名：</label>
+                    <input type="text" name="name" id="name" value="" placeholder="姓名" />
+
+                </li>
+                <li data-role='fielcontain' data-inset='true' >
+                    <label for='major' class="ui-hidden-accessible" >专业：</label>
+                    <input type="text" name="major" id="major" value="" placeholder="专业" />
+                    
+                </li>
+                <li data-role='fielcontain' data-inset='true' >
+                    <label for='class' class="ui-hidden-accessible" >班级：</label>
+                    <input type="text" name="class" id="class" value="" placeholder="班级" />
+                    
+                </li>
+                <li data-role='fielcontain' data-inset='true' >
+                    <label for='tel' class="ui-hidden-accessible" >联系电话：</label>
+                    <input type="text" name="tel" id="tel" value="" placeholder="联系电话" />
+                </li>
+                
+                <li data-role="fieldcontain">
+                     <input type="submit" value="提交" data-theme="e" id="submit" />
+                </li>
+            </ul>
+	</div><!-- /内容 -->
+
+	<div data-role="footer">
+		<h4>ASCII Studio</h4>
+	</div><!-- /底部 --></div><!-- /页面 -->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        //其他渠道
+        $("#submit").click(function(){
+            if($("#name").val()=="")
+                {alert('你还没有填写姓名哦'); return false;}
+            if($("#major").val()=="")
+                {alert('你还没有填写专业哦'); return false;}
+            if($("#class").val()=="")
+                {alert('你还没有填写班级哦'); return false;}
+            if($("#tel").val()=="")
+                {alert('你还没有填写电话哦');return false;}
+            
+                
+            var ops=$("input[name='t1']");
+            var isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第一题');
+                return false;
+            }
+            
+            ops=$("input[name='t2']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第二题');
+                return false;
+            }
+            
+            ops=$("input[name='t3']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第三题');
+                return false;
+            }
+            
+            ops=$("input[name='t4']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第四题');
+                return false;
+            }
+            
+            ops=$("input[name='t5']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第五题');
+                return false;
+            }
+            
+            ops=$("input[name='t6']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第六题');
+                return false;
+            }
+            
+            ops=$("input[name='t7']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第七题');
+                return false;
+            }
+            
+            ops=$("input[name='t8']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第八题');
+                return false;
+            }
+            
+            ops=$("input[name='t9']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第九题');
+                return false;
+            }
+            
+            ops=$("input[name='t10']");
+            isCheck=0;
+            for (var i = ops.length - 1; i >= 0; i--) {
+                if(ops[i].checked) isCheck++;
+            };
+            if(isCheck==0)
+            {
+                alert('你还没有回答第十题');
+                return false;
+            }
+            
+            
+            
+		signup();
+        }
+        );
+    });
+</script>
+</body>
+</html>

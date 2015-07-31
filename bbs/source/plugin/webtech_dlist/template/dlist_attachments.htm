@@ -1,0 +1,33 @@
+<!--{template common/header}-->
+<!--{if $attach}-->
+	<table cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td class="plc">
+				<div class="datalist">
+					<table align="center">
+						<thead class="colplural" align="center">
+							<tr>
+								<td colspan="5">{lang webtech_dlist:dlist_userlist} <a href="javascript:;" style="float:right;" onclick="display('aid{$attach['aid']}_dlist');" class="flbc">{lang close}</a>
+								</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<!--{loop $attach['dlist'] $key $user}-->
+									<td>
+										<a href="home.php?mod=space&do=profile&uid={$user['uid']}" target="_blank">{$user['username']}</a>
+									</td>
+									<!--{if $key && $key % 5 == 0}-->
+										</tr>
+										<tr>
+									<!--{/if}-->
+								<!--{/loop}-->
+							</tr>									
+						</tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+<!--{/if}-->
+<!--{template common/footer}-->

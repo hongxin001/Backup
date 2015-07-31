@@ -1,0 +1,130 @@
+<!--{if $_G['inajax']==1}-->
+{template common/header_ajax}
+<!--{else}-->
+<!--{subtemplate common/header_common}-->
+<!--{/if}-->
+    
+<!--{if $_G['uid']}-->
+<meta http-equiv="refresh" content="0.1;url={$new_target_url}">
+<!--{elseif !empty($_G['cookie']['loginuser'])}-->
+<!--{elseif !$_G[connectguest]}-->
+
+{$bg_color}
+<style>
+*{ margin:0; padding:0;}
+
+.ct_login{top:0px;}
+.ct_header{ height:80px;width:100%;}
+.ct_header img{ margin-left:15%;}
+
+.ct_main{ height:500px; width:100%; background:url(source/plugin/ct_login_yinxiangpai/template/images/bg.jpg) top no-repeat;}
+.ct_left{ height:500px; width:55%; float:left;}
+.ct_right{height:500px; width:45%; float:left; }
+.ct_l_f{ height:435px; width:345px; margin:30px 0 30px 50px; background:#FEFDF8; border: 1px solid #DCDCDC;}
+.fast_login { margin-left:40px; width:260px; border-top:1px #CCCCCC dashed; margin-top:60px; }
+.fast_login a{ float:left; margin-left:20px;  margin-top:10px; }
+
+.login_con{ margin:30px 40px; }
+.l_tip{ color:#777777; font-size:22px;  height:18px; }
+.textinput{ margin-top:20px; height:33px; width:250px; background:#FFFFFF; border:1px solid #DCDCDC; padding-top:5px;padding-left:5px; font-size:16px;}
+
+.l_t{ margin-top:20px; margin-bottom:20px;}
+.l_t em{ font-style:normal; height:5px; padding:3px 0; color:#CCCCCC;}
+.l_t b{ font-size:12px; color:#808080;  margin-right:8px; font-style:normal;}
+.login_form a{ text-decoration:none; color:#808080; font-size:12px; }
+
+.clear{ clear:both;}
+</style>
+
+<body style="height:auto;">
+<div class="ct_login">
+	<div class="ct_header"><img src="{$logo}" width="160" height="70" /></div>
+	<div class="ct_main">
+		<div class="ct_left"></div>
+		<div class="ct_right">
+			<div class="ct_l_f">
+				<div class="login_con">
+					<div class="l_tip">{lang ct_login_yinxiangpai:hac_account}</div>
+					<div class="login_form">
+						<form name="loginform" onSubmit="return check();" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;infloat=yes&amp;lssubmit=yes" id="loginform" class="login-form" autocomplete="off" method="post">
+						<span class="control-group" id="email_input"><input class="textinput" name="username" id="username" type="text"  tabindex="1"  /></span>
+						<span class="control-group" id="password1_input"><input class="textinput" name="password" id="password" type="password"  maxlength="16" value="" /></span><br />
+						<p class="l_t" >
+							<b class="cookietime"  style=" color:#808080;">
+								<input  type="checkbox" value="2592000" name="cookietime"  checked="checked">{lang ct_login_yinxiangpai:auto_login}
+							</b>
+							<b>
+                            {if $reg_isfloat}
+                            	<a href="javascript:;" id="ct_regist" onClick="showWindow('register','member.php?mod=register')" style=" color:#0A8CD2;text-decoration: none;">{lang ct_login_yinxiangpai:regist_free}&nbsp;</a>
+                            {else}
+                            	<a href="member.php?mod=register" style=" color:#0A8CD2;text-decoration: none;">{lang ct_login_yinxiangpai:regist_free}&nbsp;</a>
+                            {/if}
+                            </b>
+                            <em>|</em>&nbsp;&nbsp;&nbsp;<a href="javascript:;" onClick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')" style=" color:#0A8CD2;text-decoration: none;">&nbsp;{lang ct_login_yinxiangpai:lost_pass}?</a></b>
+						</p>
+						<input type="image"  src="source/plugin/ct_login_yinxiangpai/template/images/login_btn.png" width="260" height="35" class="sub"/>
+						</form>
+					</div>
+				</div>
+				<div class="fast_login">
+               
+                {if $qq_url}<a href="{$qq_url}&referer=$_G[siteurl]&statfrom=login" ><img src="source/plugin/ct_login_yinxiangpai/template/images/qq.jpg"></a>{/if}
+                {if $qq_url}<!--<a href="$_G[siteurl]connect.php?mod=login&op=init&referer=forum.php&statfrom=login_simple" ><img src="source/plugin/ct_login_yinxiangpai/template/images/qq.jpg"></a>-->{/if}
+                {if $xinlang_url}<a href="{$xinlang_url}" ><img src="source/plugin/ct_login_yinxiangpai/template/images/xinlang.jpg"></a>{/if}
+                {if $taobao_url}<a href="{$taobao_url}" ><img src="source/plugin/ct_login_yinxiangpai/template/images/taobao.jpg"></a>{/if}
+                {if $san_url}<a href="{$san_url}" ><img src="source/plugin/ct_login_yinxiangpai/template/images/360.jpg"></a>{/if}
+                <div class="clear"></div>
+                </div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<span id="return_ls" style="display:none"></span>
+        <div id="append_parent"></div><div id="ajaxwaitid"></div>
+	</div>
+</div>
+</body>
+<link rel="stylesheet" type="text/css" href="source/plugin/ct_login_yinxiangpai/template/css/Tooltips.css" />
+<script type="text/javascript" >var name_empty='{$name_empty}';</script>
+<script type="text/javascript" >var pass_empty='{$pass_empty}';</script>
+<script type="text/javascript" src="source/plugin/ct_login_yinxiangpai/template/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="source/plugin/ct_login_yinxiangpai/template/js/webluker.js"></script>
+<script type="text/javascript">var jq = jQuery.noConflict(); </script>
+<script>
+    function check() 
+	{
+		hideAllTooltips();
+		var ckh_result = true;
+		if (jq('#username').val() == '') 
+		{
+			showTooltips('email_input',name_empty,1500);
+			ckh_result = false;
+		}
+		
+		if (jq('#password').val() == '')
+		{
+			showTooltips('password1_input',pass_empty,1500);
+			ckh_result = false;
+		}
+		if(jq('#username').val() != '' && jq('#password').val() != '')
+		{
+			ajaxpost('loginform', 'return_ls', 'return_ls');
+		}
+		return ckh_result;
+	}
+	
+	jq(document).ready(function() {
+		jq('#ct_regist').click(function(){
+			var html = '<div style="margin-left:940px;"><a onclick="hideWindow(\'register\')" href="javascript:;" ><img src="source/plugin/ct_login_yinxiangpai/template/images/c.png" width="30" height="18"></a></div>';
+			jq('#append_parent #fwin_register').prepend(html);
+		});
+	});
+</script>
+<!--{if $_G['inajax']==1}-->
+{template common/footer_ajax}
+<!--{else}-->
+{subtemplate common/footer}
+<!--{/if}-->
+
+<!--{else}-->
+<!--<meta http-equiv="refresh" content="0.1;url={$new_target_url}">-->
+<!--{/if}--> 

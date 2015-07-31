@@ -1,0 +1,19 @@
+<!--{block return}-->
+<script type="text/javascript">
+function attachlistshow(pid , aid) {
+    var element = $('aid'+aid+'_menu') ? $('aid'+aid+'_menu') : $('attach_' + aid + '_menu');
+    var extraclass = element.id == 'attach_' + aid + '_menu' ? 'xs0' : '';
+	element.parentNode.innerHTML += '<p>[<a href="javascript:void(0);" onclick="attachlistinit(' + pid + ' , ' + aid + ');display(\'' + aid + '_ajaxattachlist\');">{lang webtech_dlist:dlist}</a>]</p>';
+}
+
+function attachlistinit(pid , aid) {
+    hideMenu();
+    var element = $('aid'+aid+'_menu') ? $('aid'+aid+'_menu') : $('attach_' + aid + '_menu');
+	var ielement = element.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+	if(!$(aid + '_ajaxattachlist')) {
+	    ielement.innerHTML += '<dd id="' + aid + '_ajaxattachlist" style="display:none;"><form name="testform_' + aid + '" id="testform_' + aid + '" method="post" action="plugin.php?id=webtech_dlist:ajax&aid=' + aid + '"></form></dd>';
+		ajaxpost('testform_' + aid , aid + '_ajaxattachlist');
+	}
+}
+</script>
+<!--{/block}-->

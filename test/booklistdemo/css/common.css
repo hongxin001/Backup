@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-size: 100%;
+
+	vertical-align: baseline;
+
+	outline: none;
+
+	font-size-adjust: none;
+
+	-webkit-text-size-adjust: none;
+
+	-moz-text-size-adjust: none;
+
+	-ms-text-size-adjust: none;
+
+}
+
+*:focus {
+
+	outline: none;
+
+}
+
+
+body {
+
+	margin: 0;
+
+	padding: 0;
+
+
+}
+
+
+
+::selection {
+
+	background-color: none;
+
+	color: #fff;
+
+}
+
+
+
+div, a, p, img, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
+
+	display: block;
+
+	overflow:hidden;
+
+	position:relative;
+
+}
+
+
+p {
+
+/*	line-height: 18px;
+
+	margin-bottom: 20px;*/
+
+	font-size: 12px;
+
+	margin: 0 0 0px;
+
+}
+
+p > a {
+
+	display: inline;
+
+	text-decoration: none;
+
+}
+
+p > a:hover {
+
+	text-decoration: underline;
+
+}
+
+p > span {
+
+	display: inline;
+
+}
+
+span > a {
+
+	display: inline;
+
+}
+
+a > span {
+
+	display: inline;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+
+
+h1 {
+
+	font-size: 22px;
+
+	line-height: 26px;
+
+}
+
+h2 {
+
+	font-size: 20px;
+
+	line-height: 24px;
+
+	padding-bottom: 1px;
+
+}
+
+h3 {
+
+	font-size: 18px;
+
+	line-height: 22px;
+
+	padding-top: 1px;
+
+}
+
+h4 {
+
+	font-size: 16px;
+
+	line-height: 20px;
+
+	padding-bottom: 1px;
+
+}
+
+
+
+h6{
+
+	font-size:12px;
+
+	line-height:18px;
+
+	padding-bottom:1px;
+
+	font-weight:700;
+
+}
+
+
+
+h5 {
+
+	font-size: 14px;
+
+	line-height: 18px;
+
+	padding-bottom:0px;
+
+}
+
+
+
+
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+
+	display: inline;
+
+}
+
+h1, h2, h3, h4{
+
+	font-weight:600; 
+
+	margin-bottom:5px;	
+
+}

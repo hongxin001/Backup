@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../public/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/progress-bar.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/boot/css/bootstrap.css"/>
+		<link href="../public/css/animation.css" rel="stylesheet">
+        <link rel="stylesheet" href="../public/css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/mobilebone.css"/>
+        <script src="../public/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../public/boot/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+       
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="back">
+					<span></span>
+				</div>
+				<div class="locate">
+					<span class="icon-location"></span>
+					<span id="location">武汉</span>
+				</div>
+				<h1>网店详情</h1>
+			</div>
+		</header>
+		<div id="main">
+			<section class="media">
+				<div class="img">
+					<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+				</div>
+				<div class="media-body">
+					<header>
+						<h2>上海市金山区枫泾镇店</h2>
+					</header>
+					<div class="m-content">
+						<address>地址：上海市金山区凤阳路853号</address>
+						<div>
+							<span>技术水平：</span>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+								</div>
+							</div>
+							<span class="level"> 高级</span>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<nav>
+				<ul>
+					<li class="active"><a href="website.html" data-ajax="true" data-rel="auto">服务详情</a></li>
+					<li class=""><a href="website.html"  data-ajax="true" data-rel="auto">评价</a></li>
+					<li class=""><a href="website.html"  data-ajax="true" data-rel="auto">介绍</a></li>
+				</ul>
+			</nav>
+			<div class="tab">
+				<section id="servise" class="servive page in">
+					<div class="content">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									<h4 class="panel-title">
+										<a class="" data-ajax="false" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseThree">
+											更换机油及机油滤清器
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										test
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									<h4 class="panel-title">
+										<a class="collapsed" data-ajax="false" data-toggle="collapse" data-parent="#accordion" href="#collapseTow" aria-expanded="false" aria-controls="collapseThree">
+											更换机油及机油滤清器
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTow" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										test
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											更换机油及机油滤清器
+										</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										test
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="comment" class="comment page out" >
+					<div class="totle">
+						<h2>
+							<span>总体评分：</span>
+							<ul class="stars">
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+							</ul>
+							<span>(18)</span>
+						</h2>
+						<ul class="score">
+							<li>服务态度： <span>4.0</span></li>
+							<li>技术水平： <span>5.0</span></li>
+							<li>收费标准： <span>3.0</span></li>
+							<li>店内环境： <span>2.0</span></li>
+						</ul>
+					</div>
+					<div class="user-comment">
+						<h2>
+							<span>用户评分：</span>
+							<ul class="stars">
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+							</ul>
+						</h2>
+						<ul class="score">
+							<li>服务态度： <span>4.0</span></li>
+							<li>技术水平： <span>5.0</span></li>
+							<li>收费标准： <span>3.0</span></li>
+							<li>店内环境： <span>2.0</span></li>
+						</ul>
+						<p class="comment-summary">评价：<span>保养技术好下次还来这家。</span></p>
+					</div>
+					<div class="user-comment">
+						<h2>
+							<span>用户评分：</span>
+							<ul class="stars">
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+							</ul>
+						</h2>
+						<ul class="score">
+							<li>服务态度： <span>4.0</span></li>
+							<li>技术水平： <span>5.0</span></li>
+							<li>收费标准： <span>3.0</span></li>
+							<li>店内环境： <span>2.0</span></li>
+						</ul>
+						<p class="comment-summary">评价：<span>保养技术好下次还来这家。</span></p>
+					</div>
+					<div class="user-comment">
+						<h2>
+							<span>用户评分：</span>
+							<ul class="stars">
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+								<li><span class="icon-star"></span></li>
+							</ul>
+						</h2>
+						<ul class="score">
+							<li>服务态度： <span>4.0</span></li>
+							<li>技术水平： <span>5.0</span></li>
+							<li>收费标准： <span>3.0</span></li>
+							<li>店内环境： <span>2.0</span></li>
+						</ul>
+						<p class="comment-summary">评价：<span>保养技术好下次还来这家。</span></p>
+					</div>
+				</section>
+				<section id="introduce" class="introduce page out" >
+					<article>
+						<a href="">详细介绍</a>
+						<div>
+							<p class="text">本站拥有280平方米左右的维修场地，拥有技工两名，可同时停放一台车辆进行维修。门站集汽车维修、汽车保养、汽车救援于一身，竭诚为各位爱车人士服务！</p>
+							<img src="img/Bz6ssBlIgAAmVbn.png" alt="img" />
+						</div>
+					</article>
+				</section>
+			</div>
+			
+			
+		</div>
+		<footer>
+			<a>预约服务</a>
+		</footer>
+	</body>
+	<script src="../public/js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//Mobilebone.captureLink = false;
+	</script>
+</html>

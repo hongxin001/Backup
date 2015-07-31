@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[bene_invite.plugin]]></item>
+	<item id="RevisionID"><![CDATA[40775]]></item>
+	<item id="SN"><![CDATA[2014110302gAPxnfV9ZV]]></item>
+	<item id="RevisionDateline"><![CDATA[1409968802]]></item>
+	<item id="Data">
+		<item id="/bene_invite.class.php"><![CDATA[31d3a966bfce2268b76c3db9d97efe5c]]></item>
+		<item id="/template/post_dd_forum.htm"><![CDATA[2b639a8b543455b8561ab6d6df712aa0]]></item>
+		<item id="/discuz_plugin_bene_invite_TC_UTF8.xml"><![CDATA[c70aa2d0335f0f1871850461d5f0f47c]]></item>
+		<item id="/discuz_plugin_bene_invite_SC_UTF8.xml"><![CDATA[65f21aa8fde75a96bb68e5dec71a7671]]></item>
+		<item id="/discuz_plugin_bene_invite_TC_BIG5.xml"><![CDATA[f6787bf4433a09e4675f8f9e61f2bef4]]></item>
+		<item id="/discuz_plugin_bene_invite_SC_GBK.xml"><![CDATA[d253b3c94b4911dd5722ee157b36ebbd]]></item>
+	</item>
+</root>

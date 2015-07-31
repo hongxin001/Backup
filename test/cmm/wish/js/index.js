@@ -1,0 +1,35 @@
+/***********顶部的子导航栏*****************/
+$(".head-up").on("tap",function(){
+	if($(this).hasClass("up")){
+		$(this).attr("src","images/down.png");
+		$(".sub-nav").fadeIn(200);
+		$(this).removeClass('up');
+	}else{
+		$(this).attr("src","images/up.png");
+		$(".sub-nav").fadeOut(200);
+		$(this).addClass('up');
+	}
+});
+/*****************三个模态框的弹出与隐藏*******************/
+	$(".search-button1").tap(function(){
+		$(".search-wrap-in").animate({left:"0%"},200,"ease-out");
+	});
+	$(".login").on("tap",function(){
+		$(".loginmask").fadeIn(200);
+	});
+	$(".signup").on("tap",function(){
+		$(".signmask").fadeIn(200);
+	});
+	$(".edit").on("tap",function(){
+		$(".editmask").fadeIn(200);
+	});
+
+	$(".signclose").on("tap",function(){
+		$(".signmask").fadeOut(200);
+	});
+	$(".editclose").on("tap",function(){
+		$(".editmask").fadeOut(200);
+	});
+	$(".loginclose").on("tap",function(){
+		$(".loginmask").fadeOut(200);
+	});

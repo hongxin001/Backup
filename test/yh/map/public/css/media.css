@@ -1,0 +1,72 @@
+
+.media {
+	box-sizing: border-box;
+	margin: 2%;
+	width: 96%;
+	background: #fff;
+	font-size: 1rem;
+}
+.media a {
+	display: block;
+	width: 100%;
+	/*display: -webkit-box;*/  
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
+	/*-webkit-box-pack: justify;*/ 
+	-webkit-justify-content: space-between;
+			justify-content: space-between;
+	/*待定*/
+	/*-webkit-box-align: stretch;*/ 
+	-webkit-align-items: stretch;
+			align-items: stretch;
+	color: #626161;
+}
+.media .img {
+	display: block;
+	/*display: -webkit-box;*/ 
+	display: -webkit-flex;
+	display: flex;
+	box-sizing: border-box;
+	width: 30%;
+	flex: 1 30%;
+	margin-top: .5em;
+	padding-left:.3em;
+	height: 6.5em;
+	line-height: 6.5em;
+	float: left;
+	/*-webkit-flex-flow: row nowrap;*/	
+			/*flex-flow: row nowrap;*/
+	/*-webkit-box-pack: justify;*/ 
+	/*-webkit-justify-content: space-between;*/
+			/*justify-content: space-between;*/
+	/*-webkit-box-align: center;*/ 		
+	/*-webkit-align-items: center;*/
+			/*align-items: center;*/
+}
+.media .img img{
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 6.25rem;
+}
+.media-body {
+	display: inline-block;
+	width: 66%;
+	flex: 1 66%;
+	margin-left: 3.744%;
+}
+.media a h2{
+	margin-top: .7em;
+	font-size: 1em;
+	color: #585858;
+}
+
+.media .media-body>.m-content{
+	font-size: .75rem;
+}
+.media .media-body>.m-content>div {
+	margin: .8em 0;
+}
+

@@ -1,0 +1,321 @@
+body{
+	overflow:hidden; 
+}
+.header{
+	width:100%;
+	background-color:#fff099;
+	border-bottom:3px solid #d99a5b; 
+} 
+.header span{
+	display: table-cell;/*图片容器以表格的单元格形式显示*/
+	vertical-align: middle; /*实现垂直居中*/ 
+	height:40px;
+	width:1% 
+}
+.head-logo{
+	height:30px; 
+	margin-left:15px;
+	margin-right:10px;   
+}
+.head-up{
+	height:20px;
+}
+.head-login{
+	text-align:right; 
+}
+.header span img{
+	vertical-align:middle; 
+}
+.login,.signup{
+	height:30px;
+	position:relative; 
+}
+.login{
+	right:30px;
+}
+.signup{
+	right:15px;
+}
+
+/*******sub-nav************/
+.sub-nav{
+	display: inline-block;
+	width:150px;
+	position:absolute;
+	top:40px;
+	background-color:#f94d75;
+	border-left:solid 3px #9e1c62;
+	border-right:solid 3px #9e1c62;
+	border-bottom:solid 8px #9e1c62;
+	border-top:none;  
+	display:none; 
+}
+.sub-nav span{
+	display: table-cell;/*图片容器以表格的单元格形式显示*/
+	vertical-align: middle; /*实现垂直居中*/ 
+	height:50px;
+	width:1% 
+}
+.sub-nav span:hover，.sub-nav span:active{
+	background-color:#661246; 
+}
+span.fenge{
+	height:5px;
+	background-color:#661246; 
+	position:relative;
+	left:20px; 
+}
+img.change{
+	height:20px;
+	padding:0 10px;
+}
+img.movie,img.wall{
+	height:25px;
+}
+/*************************/
+.banner img{
+	width:100%;
+	height:auto;
+	font-size:0px; 
+}
+/**********中间搜索与写心愿的按钮********/
+.search-wrap-out{
+	width:100%;
+	overflow:hidden; 
+	margin-top:-3px;	/**有3像素的误差***/
+}
+.search-wrap-in{
+	width:200%;
+	left:-100%; 
+	position:relative;
+}
+.search{
+	height:56px;
+	display:inline-block;
+	float:left;  
+	background-color: #1dc6ed;
+	border-top:solid 3px #00ffff;
+	border-bottom:solid 3px #2d6c96;
+	width:50%;
+}
+
+.write-button,.search-button2,.search-button1,.input{
+	width:48%;
+}
+.search span.xian{
+	width:2%;
+}
+.write-button img,.search-button1 img,.search-button2 img{
+	height:24px;
+}
+
+.search span{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height:50px;
+}
+.search span *{
+	vertical-align:middle; 
+}
+.search span input{
+	outline:none; 
+	border:none;
+	height:30px;
+	width:80%;
+	border-radius:30px; 
+	margin-left:10px;
+}
+span.xian img{
+	height:30px;
+	width:3px;
+	margin-left:10px;
+	margin-right:10px; 
+}
+@media screen and (min-width: 760px) {
+	.search{
+		height:100px;
+		border-top:solid 10px #00ffff;
+		border-bottom:solid 10px #2d6c96;
+	}
+	.write-button img,.search-button1 img,.search-button2 img{
+		height:40px;
+	}
+	.search span{
+		height:80px;
+	}
+	.search span input{
+		height:50px;
+		border-radius:50px; 
+	}
+}
+/************右侧***********/
+.paperCard,.paperCardWrap{
+	width:100%;
+}
+@media screen and (max-width:640px) {
+	.paperCardWrap{
+		width:100%;
+		max-width:450px;
+		margin:0 auto; 
+	}
+}
+@media screen and (min-width:640px) and (max-width:960px){
+	.paperCardWrap{
+		width:640px;
+		margin:0 auto; 
+	}
+	.paperCard{
+		width:310px;
+		display:inline-block; 
+	}
+}
+@media screen and (min-width:960px) {
+	.paperCardWrap{
+		width:960px;
+		margin:0 auto; 
+		font-size:0px; 
+	}
+	.paperCard{
+		width:315px;
+		display:inline-block; 
+	}
+}
+.paper-wrap{
+	width:100%;
+	border:5px solid #2e4158;
+	border-bottom:none; 
+	border-bottom:14px solid #d99a5b;
+}
+.paper{
+	width:100%;
+	border-left:dashed 2px #2e4158;
+	border-right:dashed 2px #2e4158;
+	padding:20px 50px 20px 50px;
+	text-align: center;  
+
+}
+.paper span{
+	font-size:1.1rem;
+	word-spacing:1em;
+	line-height:1.3em;  	
+	display:inline-block; 
+	position: relative; 
+}
+.person{
+	margin-top:2px;
+	height:70px;
+	width:100%;
+	background-color:#fff099;
+	text-align:center;
+	overflow: hidden; 
+}
+.person p{
+	font-size:1rem;
+	margin-top:6px;  
+}
+.person span{ 
+	padding:2px  10px;
+	position:relative;
+	top:-10px; 
+	height:28px;
+	border-top:4px solid #ccddcf;
+	border-bottom:4px solid  #d99a5b;  
+	background:#fff; 
+}
+.person span img{
+	height:28px;
+	position:relative; 
+	top:10px;
+	margin:0px 5px;  
+}
+
+/******************/
+.loginmask,.signmask,.editmask{
+	height:150%;
+	width:100%;
+	z-index:2; 
+	top:0px;
+	left:0px;
+	position:fixed;
+	background-color:rgba(0,0,0,0.4); 
+	
+}
+.loginmask,.signmask,.editmask{
+	display:none; 
+}
+.loginWindow,.signWindow,.editWindow{
+	display:inline-block;
+	position:relative; 
+	margin:0 auto; 
+	left:50%;
+	margin-left:-140px; 
+	margin-top:160px;  
+	width:280px;
+	height:224px; 
+	background-color:#2e4158;
+	box-shadow:5px 5px 10px #12233a,-5px 5px 10px #12233a,5px -5px 10px #12233a,-5px -5px 10px #12233a; 
+}
+.signWindow{
+	height:260px;
+}
+.editWindow{
+	height:270px; 
+}
+.logintitle,.logincontent,.edittitle,.editcontent,.signtitle,.signcontent{
+	width:100%;
+	text-align:center;
+	position:relative;
+	top:-60px;  
+}
+.four{
+	width:200px;
+}
+img.title{
+	position:absolute;
+	width:100px;
+	top:30px;
+	left:90px;
+}
+.logincontent p,.signcontent p,.editcontent p{
+	padding-top:15px;  
+}
+.logincontent span,.signcontent span,.editcontent span{
+	display: table-cell;
+	width:1%;
+	vertical-align: middle;
+	text-align: center;
+	height:40px;
+}
+.logincontent span *,.signcontent span *,.editcontent span*{
+	vertical-align:middle; 
+}
+.logincontent span img,.signcontent span img,.editcontent span img{
+	height:20px;
+}
+.logincontent input,.signcontent input{
+	height:30px;
+	outline:none;
+	border:none; 
+	width:150px;
+	margin-left:20px; 
+	border-radius:40px; 
+}
+.editcontent textarea{
+	outline: none; border:none; border-radius:5px; 
+}
+.logincontent .loginbutton,.signcontent .signupbutton,.editcontent .signupbutton{
+	height:35px;
+	margin-top:5px; 
+}
+
+.loginclose,.editclose,.signclose{
+	position:absolute;
+	height:40px; 
+	top:-10px;
+	right:-10px;
+	z-index:3;
+}
+.loginclose{
+	
+}

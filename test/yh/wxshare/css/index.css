@@ -1,0 +1,187 @@
+@media (min-width: 415px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+input {
+    -webkit-user-select: auto;
+}
+
+html,
+body,
+article,
+section {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: "微软雅黑", Arial, 'Microsoft YaHei', sans-serif;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    border: 0;
+    font-size: 0;
+    -webkit-touch-callout: none
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+header {
+    padding: 2.1428rem 0;
+}
+
+.contain {
+    text-align: center;
+}
+
+img.avatar {
+    width: 3.57rem;
+    height: 3.57rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: .7142rem;
+}
+
+.media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+video.media {
+	background: #000;
+	height: 100%;
+}
+img.media {
+    visibility: hidden;
+    top: 50%;
+}
+
+video.media::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+div.media {
+    background: url(../img/text_bg.png);
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+div.media div {
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.9rem;
+}
+
+div.media div > p {
+    width: 80%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .13rem;
+    font-family: SimHei, Arial, 'Microsoft YaHei', sans-serif;
+}
+
+#main .contain p {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+.out {
+    display: none;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 999;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+.page1 {
+    background: #9933CC;
+}

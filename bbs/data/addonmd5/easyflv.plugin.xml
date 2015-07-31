@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[easyflv.plugin]]></item>
+	<item id="RevisionID"><![CDATA[5689]]></item>
+	<item id="SN"><![CDATA[2014061803e4F0w7W47E]]></item>
+	<item id="RevisionDateline"><![CDATA[1378605601]]></item>
+	<item id="Data">
+		<item id="/easyflv.class.php"><![CDATA[31d0bd5f37c44621e21cefd31d2f795d]]></item>
+		<item id="/discuz_plugin_easyflv_TC_UTF8.xml"><![CDATA[30fd83bd173130132849523004a68438]]></item>
+		<item id="/discuz_plugin_easyflv_SC_GBK.xml"><![CDATA[d183e2e9ee1ee7eed24eb2b5c653d4ca]]></item>
+		<item id="/mobile.class.php"><![CDATA[7081e90652b15348142905b926810a91]]></item>
+		<item id="/admincp.inc.php"><![CDATA[b5fd8f03c62e01fbc7675a2d0c4d0e40]]></item>
+		<item id="/discuz_plugin_easyflv_TC_BIG5.xml"><![CDATA[246cf6b4494a5901bb81bdbbdf2da911]]></item>
+		<item id="/discuz_plugin_easyflv_SC_UTF8.xml"><![CDATA[895dde6c186aab6ac5a309e26c3aac65]]></item>
+	</item>
+</root>

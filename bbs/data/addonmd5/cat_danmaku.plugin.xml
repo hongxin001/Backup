@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[cat_danmaku.plugin]]></item>
+	<item id="RevisionID"><![CDATA[33230]]></item>
+	<item id="SN"><![CDATA[2014110302XVC5n8KHPT]]></item>
+	<item id="RevisionDateline"><![CDATA[1413943201]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_cat_danmaku_SC_UTF8.xml"><![CDATA[b7d03a766d863f2842a3c16575a0e347]]></item>
+		<item id="/template/index.htm"><![CDATA[7051d747919168d9f7b4318838a61369]]></item>
+		<item id="/discuz_plugin_cat_danmaku_TC_BIG5.xml"><![CDATA[e23ac8c4da2daa9dee409ffd8b308e32]]></item>
+		<item id="/images/icon18.png"><![CDATA[0d2d884a75036d9bcc935373fac7c4eb]]></item>
+		<item id="/images/cat_danmaku.css"><![CDATA[90078dd4c0a0d1e095de4e844638608b]]></item>
+		<item id="/images/icon22.png"><![CDATA[ebbc955a4337805a867454272604e23b]]></item>
+		<item id="/discuz_plugin_cat_danmaku_TC_UTF8.xml"><![CDATA[ea712f9382df7a15f21103bd1e575da4]]></item>
+		<item id="/discuz_plugin_cat_danmaku_SC_GBK.xml"><![CDATA[c1900ff8fe9c9dcb36a59f09463a8a61]]></item>
+		<item id="/cat_danmaku.inc.php"><![CDATA[a5b91c5f11a5a2ffe2f098c887c0a5ba]]></item>
+		<item id="/cat_danmaku.class.php"><![CDATA[3ed2571ac2b255309f1d1a366424b856]]></item>
+	</item>
+</root>

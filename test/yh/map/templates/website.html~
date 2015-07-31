@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../public/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/progress-bar.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/website.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/mobilebone.css"/>
+		<link href="../public/css/animation.css" rel="stylesheet">
+        <link rel="stylesheet" href="../public/css/fontello.css">
+        <script src="../public/js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/js/website.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="locate">
+					<span class="icon-location"></span>
+					<span id="location">武汉</span>
+				</div>
+				<h1>网点查询</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="active"><a href="#default">默认</a></li>
+					<li class=""><a href="#distance">距离</a></li>
+					<li class=""><a href="#stars">星级</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main">
+			<section id="default" class="page in">
+				<ul class="media-list">
+					<li class="media">
+						<a href="detail.html">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="distance" class="page out">
+				<ul class="media-list">
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="stars" class="page out">
+				<ul class="media-list">
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+					<li class="media">
+						<a href="">
+							<div class="img">
+								<img src="../public/img/Bz6ssBlIgAAmVbn.png"/>
+							</div>
+							<div class="media-body">
+								<header>
+									<h2>上海市金山区枫泾镇店<span class="label distance">&lt;2km</span></h2>
+								</header>
+								<div class="content">
+									<address>地址：上海市金山区凤阳路853号</address>
+									<div>
+										<span>技术水平：</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											</div>
+										</div>
+										<span class="level"> 高级</span>
+									</div>
+									<div>
+										<span>服务星级：</span>
+										<ul class="stars">
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+											<li><span class="icon-star"></span></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</body>
+</html>

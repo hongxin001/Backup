@@ -1,0 +1,37 @@
+<!--{template common/header}-->
+<!--{if $type != 'countitem'}-->
+<div style="float:left; width:100%;">
+	<h1 class="tagitem"><img class="vm" src="{IMGDIR}/tag.gif" alt="tag" /> {lang tag}</h1>
+
+<form method="post" class="searchform" action="misc.php?mod=tag" >
+	<div class="search">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td>
+							<input type="text" name="name" class="input"  />
+						</td>
+						<td width="66" align="center" class="scbar_btn_td">
+							<button type="submit"  class="button2" ><em>{lang search}</em></button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+</form>
+
+				<!--{if $tagarray}-->
+					<div class="tagso">
+					<!--{loop $tagarray $tag}-->
+						<a  href="misc.php?mod=tag&id=$tag[tagid]" >$tag[tagname]</a>
+					<!--{/loop}-->
+					</div>
+				<!--{else}-->
+					<p>{lang no_tag}</p>
+
+				<!--{/if}-->
+</div>
+<!--{else}-->
+$num
+<!--{/if}-->
+<!--{template common/footer}-->

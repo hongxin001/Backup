@@ -1,0 +1,52 @@
+body {
+	background: #9933cc;
+}
+#main {
+	position: relative;
+	top:13%;
+	width: 100%;
+	height:74%;
+}
+div.text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.more {
+	margin-top: 2.8rem;
+}
+div.text>p{
+    line-height: 1.8;
+	text-align: left;
+	letter-spacing: .2rem;
+	margin-top: 0 !important;
+	margin: 0;
+	font-size: .9rem !important;
+}
+img.delete {
+	width: 12.1428rem;
+	height: 8.5714rem;
+}
+.delete+p{
+	margin-top: 0.8571rem;
+	font-size: 1.1rem;
+}
+a.btn {
+	position: relative;
+	margin-top:3rem;
+	margin-bottom: 2rem;
+	display: inline-block;
+	width: auto;
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: .8rem 3.2857rem;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	letter-spacing: 2px;
+	z-index: 9999;
+	-Webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-weight: 500;
+}
+a:active {
+	background: rgba(255,255,255,.15);
+}

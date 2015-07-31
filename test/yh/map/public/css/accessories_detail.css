@@ -1,0 +1,72 @@
+ul.score:after {
+	display: block;
+	content: 'clear';
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#main>section {
+	box-sizing: border-box;
+	margin: 2%;
+	width: 96%;
+}
+.show{
+	background: #fff;
+	background-image: url(../img/Bz6ssBlIgAAmVbn.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 9.375rem;
+	
+}
+.show .new {
+	margin-top: .6rem;
+	padding: .3rem .7rem;
+	line-height: 1;
+	width: auto;
+	height: auto;
+	float: left;
+	color: #FFFFFF;
+}
+.a-info {
+	padding: 2% 4%;
+	background: #fff;
+}
+.a-info>header {
+	box-sizing: border-box;
+	width: 100%;
+}
+.a-info>header>h2 {
+	margin: 0;
+	margin-bottom: .8125rem;
+	font-size: 1rem;
+}
+.a-info >.content{
+	font-size: .8125rem;
+}
+.a-info .content>div {
+	margin: .6rem 0;
+}
+.a-info .content>div.red {
+	color: #de2222;
+	margin: 0;
+	
+}
+.a-info .content>div>del {
+	font-size: .75rem;
+}
+
+.comment {
+	font-size: 1rem;
+	background: #fff;
+}
+.comment > div {
+	background: #FFFFFF;
+	padding: 4.5%;
+	margin-bottom: 2%;
+}
+.comment h2{
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-size: 1.2em;
+	font-weight: normal;
+}

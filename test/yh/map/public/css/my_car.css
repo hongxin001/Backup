@@ -1,0 +1,42 @@
+.custom {
+	text-align: left;
+	margin: 3% 2%;
+}
+.custom span+span{
+	float: right;
+}
+
+#main dl {
+	margin-top: 1.4rem;
+	width: 100%;
+}
+dl>dt,dl>dd {
+	margin: 0;
+}
+dl dt {
+	background: #f7b83a;
+	color: #fff;
+	text-align: center;
+	font-size: 1rem;
+	line-height: 1.7;
+}
+dl dd {
+	overflow: hidden;
+	padding: .6rem 1.5rem;
+	line-height: 3.5rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+dl dd .car-icon {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+dl>dd div.text .info {
+	margin-left: 2rem;
+	display: block;
+	line-height: normal;
+}
+dl>dd div.text {
+	display: inline-block;
+	vertical-align: middle;
+}

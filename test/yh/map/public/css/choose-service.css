@@ -1,0 +1,111 @@
+ul.accessories-type:after {
+	display: block;
+	content: 'clear';
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+nav ul li {
+	width:50%;
+}
+form {
+	width: 96%;
+	margin: 2rem 2%;
+	font-size: 0;
+	text-align: center;
+}
+form> label {
+	box-sizing: border-box;
+	float: left;
+	width: 35%;
+	background: #F7B83A;
+	color: #fff;
+	padding: .9rem;
+	font-size:.8571rem;
+	text-align: center;
+}
+form>input {
+	border: 0;
+	outline: 0;
+	float: left;
+	width: 65%;
+	box-sizing: border-box;
+	padding: .9rem;
+	font-size: .9571rem;
+}
+form button {
+	margin-top: 1.7rem;
+	box-sizing: border-box;
+	background: #F7B83A;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: .9rem 4.7rem;
+	border-radius: 2.4rem;
+}
+#main {
+	position: relative;
+}
+ul.accessories-type {
+	position: relative;
+	margin-top: 2%;
+	margin-left: 2%;
+	
+}
+ul.accessories-type li {
+	box-sizing: border-box;
+	width: 35%;
+	display: block;
+	float:none;
+	text-align: center;
+	font-size: .9rem;
+	padding: .5rem 1rem;
+	font-weight: bold;
+	font-family: "arial", "helvetica", sans-serif;
+	border-top:1px solid transparent;
+	border-bottom:1px solid transparent;
+}
+ul.accessories-type li>span {
+	vertical-align: middle;
+}
+ul.accessories-type li.cur {
+	background: #FFF;
+	color: #F7B83A;
+}
+dl {
+	width: 65%;
+	height: 100%;
+	margin: 0;
+	margin-top: 2%;
+	position: absolute;
+	top: 0;
+	left: 37%;
+	font-size: 1rem;
+	color: #666;
+	background: #fff;
+}
+dl dd {
+	margin: 0;
+	
+}
+dl dd a{
+	display: block;
+	margin:0;
+	font-size: .9rem;
+	font-weight: bold;
+	padding: .5rem 1rem;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+	background: #fff;
+	color: #666;
+	text-align: left;
+}
+dl dd span {
+	vertical-align: middle;
+}
+dl dd .icon {
+	float: right;
+	font-size: 1rem;
+}

@@ -1,0 +1,45 @@
+.page1 header span {
+	font-size: 1rem;
+	color: #fff;
+}
+
+.press {
+	/*width: 5.4rem;*/
+	height: 8.857rem;
+}
+.blur {
+    filter: blur(2rem);
+    -webkit-filter: blur(2rem);
+    -moz-filter: blur(2rem);
+    -o-filter: blur(2rem);
+    -ms-filter: blur(2rem);
+    filter:progid:DXImageTransform.Microsoft.Blur(pixelradius=10);
+}
+#main .contain {
+	margin-top:4.357rem;
+}
+#main .contain p {
+	margin-top: 1.857rem;
+}
+
+.cover #loading {
+	position: relative;
+	top: 38%;
+	width: 60%;
+	padding: 1rem;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 5px;
+	background: rgba(0,0,0,.75);
+}
+.cover #loading img {
+	width: 2rem;
+}
+.cover #loading p {
+	margin-top: .7rem;
+	margin-bottom: 0;
+	font-size: 1.2rem;
+	color: #fff;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>HTML5-毛笔画笔（带杂点和流水效果）</title>
+
+<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+</head>
+<body>
+<canvas id='canvas'></canvas>
+<div id="display">
+    画笔大小:<span id="brush-size">30</span><a id="up" href="javascript:void(0)">▲</a><a id="down" href="javascript:void(0)">▼</a>
+</div>
+<div id="pos_display"></div>
+<div id="whitemode_display"></div>
+<div id="clear_display"><input type="button" value="绘制模式" class="mode_input" id="white_input"/><input type="button" value="擦除模式" class="mode_input" id="clear_input" title="擦除模式可以参照前面的DEMO完成"/></div>
+	<div id="conver_tip">输入p键可以导出图片</div>
+<script type="text/javascript" src="demo7.js"></script>
+</body>
+</html>

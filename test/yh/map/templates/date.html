@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../public/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/css/date.css"/>
+		<link href="../public/css/animation.css" rel="stylesheet">
+        <link rel="stylesheet" href="../public/css/fontello.css">
+        <script src="../public/js/date.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="locate">
+					<span class="icon-location"></span>
+					<span id="location">武汉</span>
+				</div>
+				<h1>添加驾照</h1>
+			</div>
+		</header>
+		<div id="main">
+			<dl class="date">
+				<dt>获取驾照日期</dt>
+				<dd class="control">
+					<section>
+						<span ontouchend="add(this,-1)">+</span>
+						<span id="year" class="text">2008</span>
+						<span ontouchend="sub(this,-1)">-</span>
+					</section>
+					<section>
+						<span ontouchend="add(this,12)">+</span>
+						<span id="month" class="text">1</span>
+						<span ontouchend="sub(this,12)">-</span>
+					</section>
+					<section>
+						<span ontouchend="add(this,-2)">+</span>
+						<span id="day" class="text">10</span>
+						<span ontouchend="sub(this,-2)">-</span>
+					</section>
+				</dd>
+				<dd>
+					<a href="function(){submit();}">完成</a>
+				</dd>
+			</dl>
+		</div>
+	</body>
+</html>

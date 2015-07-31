@@ -1,0 +1,39 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(9/4/2014) - 0.5
+[!] Remove php notice caused by newest version of parent theme
+[!] Fix sticky nav disappearing behind admin bar
+
+----
+
+(8/30/2014) - 0.4
+[!] Fixed jumping issue with navigation above header
+
+----
+
+(8/24/2014) - 0.3
+[!] Fixed bug dealing with sticky navigation
+[+] Added transition to the navigation
+[+] Instructions added to style.css and functions.php
+[+] Added new defaults to filter
+
+----
+
+(8/10/2014) - 0.2
+[+] New form color defaults added
+[!] Fixed content page header in post excerpt 
+
+----
+
+(07/19/2014) - 0.1
+Initial Release

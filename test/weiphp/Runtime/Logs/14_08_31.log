@@ -1,0 +1,330 @@
+[ 2014-08-31T19:48:59+08:00 ] 219.140.205.167 /weiphp/index.php?s=/home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.004832s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = 'hustsoftware' ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: UPDATE `wp_ucenter_member` SET `last_login_time`=1409485739,`last_login_ip`='3683437991' WHERE ( `id` = 363 ) [ RunTime:0.003401s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.011799s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `uid` = 363 ) LIMIT 1   [ RunTime:0.000847s ]
+SQL: UPDATE `wp_member` SET `login`=`login`+1,`last_login_time`=1409485739,`last_login_ip`='3683437991' WHERE ( `uid` = 363 ) [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000517s ]
+SQL: SELECT `id`,`username`,`email`,`mobile`,`status` FROM `wp_ucenter_member` WHERE ( `id` = 363 ) LIMIT 1   [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+SQL: SHOW COLUMNS FROM `wp_action` [ RunTime:0.010867s ]
+SQL: SELECT * FROM `wp_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001131s ]
+
+[ 2014-08-31T19:50:15+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/Forms/add/model/69.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000735s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000540s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000383s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant _ADDONS - assumed '_ADDONS' /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 175 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000066s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:8;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:3;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000187s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.009769s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000063s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000644s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000484s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000674s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 69 )  [ RunTime:0.000112s ]
+SQL: INSERT INTO `wp_forms` (`keyword`,`keyword_type`,`title`,`intro`,`cover`,`can_edit`,`finish_tip`,`jump_url`,`content`,`cTime`,`token`,`mTime`) VALUES ('123',0,'123','123',0,1,'提交成功，谢谢参与','','',1409485815,'gh_e3fce6e7fc4f',1409485815) [ RunTime:0.001927s ]
+SQL: SHOW COLUMNS FROM `wp_keyword` [ RunTime:0.002619s ]
+SQL: DELETE FROM `wp_keyword` WHERE ( `addon` = 'Forms' ) AND ( `aim_id` = 14 ) AND ( `extra_text` = '' ) AND ( `extra_int` = 0 ) [ RunTime:0.001158s ]
+SQL: INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('Forms',14,'',0,'gh_e3fce6e7fc4f',1409485815,0,'123',3) [ RunTime:0.002077s ]
+
+[ 2014-08-31T19:54:33+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/FormsValue/add/model/71.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000733s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjjmgLoZZD3W3cTBTtnaQV-0' ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000454s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000543s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:10;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:11;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000187s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.009328s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `openid` = 'oRV3VjjmgLoZZD3W3cTBTtnaQV-0' ) LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: need_bind /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 187 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000662s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_value' ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `wp_forms` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.000407s ]
+SQL: SELECT * FROM `wp_forms_value` WHERE ( `uid` = -3452 ) AND ( `forms_id` = 14 ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `wp_forms_attribute` WHERE ( `forms_id` = 14 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) ORDER BY sort asc, id asc  [ RunTime:0.000067s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 169 行.
+NOTIC: [8] Undefined variable: post /home/www/test/weiphp/Addons/Forms/Controller/FormsValueController.class.php 第 180 行.
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.000389s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 71 )  [ RunTime:0.000467s ]
+SQL: INSERT INTO `wp_forms_value` (`forms_id`,`id`,`value`,`uid`,`openid`,`cTime`,`token`) VALUES (14,0,'N;',-3452,'oRV3VjjmgLoZZD3W3cTBTtnaQV-0',1409486073,'gh_e3fce6e7fc4f') [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.000389s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_e3fce6e7fc4f" )  [ RunTime:0.000068s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('forms',0,-3452,1409486073,'gh_e3fce6e7fc4f',0,0) [ RunTime:0.000136s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = -3452 ) AND ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: UPDATE `wp_follow` SET `score`=0,`experience`=0 WHERE ( `id` = -3452 ) [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+
+[ 2014-08-31T19:56:15+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/FormsAttribute/add/model/70.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000753s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000383s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant _ADDONS - assumed '_ADDONS' /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 175 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000068s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000373s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:10;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:16;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000192s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.009734s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000651s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_attribute' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000068s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000519s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000618s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 70 )  [ RunTime:0.000083s ]
+SQL: INSERT INTO `wp_forms_attribute` (`name`,`title`,`type`,`extra`,`value`,`remark`,`is_must`,`validate_rule`,`error_info`,`sort`,`forms_id`,`is_show`,`mTime`,`token`) VALUES ('姓名','姓名1','string','','','XXX',1,'','',0,14,1,1409486175,'gh_e3fce6e7fc4f') [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+
+[ 2014-08-31T19:57:11+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/FormsAttribute/edit/model/70.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000740s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000531s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000412s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant _ADDONS - assumed '_ADDONS' /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 175 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000069s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000489s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000375s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:10;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:20;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000191s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.009738s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000653s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_attribute' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000067s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000071s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000550s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000620s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 70 )  [ RunTime:0.000085s ]
+SQL: UPDATE `wp_forms_attribute` SET `name`='Name',`title`='姓名',`type`='string',`extra`='',`value`='',`remark`='',`is_must`=1,`validate_rule`='',`error_info`='',`sort`=0,`forms_id`=14,`is_show`=1,`mTime`=1409486231 WHERE ( `id` = 39 ) [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+
+[ 2014-08-31T19:57:11+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/FormsAttribute/edit/model/70.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000746s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000491s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000385s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant _ADDONS - assumed '_ADDONS' /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 175 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:10;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:21;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000201s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.009665s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000673s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_attribute' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000069s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000539s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 70 )  [ RunTime:0.000086s ]
+SQL: UPDATE `wp_forms_attribute` SET `name`='Name',`title`='姓名',`type`='string',`extra`='',`value`='',`remark`='',`is_must`=1,`validate_rule`='',`error_info`='',`sort`=0,`forms_id`=14,`is_show`=1,`mTime`=1409486231 WHERE ( `id` = 39 ) [ RunTime:0.000177s ]
+
+[ 2014-08-31T19:57:47+08:00 ] 219.140.205.167 /weiphp/index.php?s=/addon/Forms/FormsAttribute/add/model/70.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.001075s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000407s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant _ADDONS - assumed '_ADDONS' /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 175 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000372s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:3:{s:4:\"Chat\";i:10;s:11:\"CustomReply\";i:4;s:5:\"Forms\";i:24;}' WHERE ( `token` = 'gh_e3fce6e7fc4f' ) AND ( `day` = 20140831 ) [ RunTime:0.000210s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsAttributeController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) /home/www/test/weiphp/Addons/Forms/Controller/FormsAttributeController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.010177s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = 'gh_e3fce6e7fc4f' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 363 ) AND ( `mp_id` = 106 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000644s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_attribute' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /home/www/test/weiphp/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=363 ) ORDER BY is_use desc  [ RunTime:0.000066s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('106') ) ORDER BY FIND_IN_SET(id,"106")  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000552s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000614s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 70 )  [ RunTime:0.000083s ]
+SQL: INSERT INTO `wp_forms_attribute` (`name`,`title`,`type`,`extra`,`value`,`remark`,`is_must`,`validate_rule`,`error_info`,`sort`,`forms_id`,`is_show`,`mTime`,`token`) VALUES ('Tel','联系方式','string','','','',1,'','',0,14,1,1409486267,'gh_e3fce6e7fc4f') [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: query /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 681 行.
+
+[ 2014-08-31T20:06:54+08:00 ] 222.20.57.7 /weiphp/index.php?s=/home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 125 行.
+NOTIC: [8] Undefined index: uid /home/www/test/weiphp/ThinkPHP/Library/Think/Controller.class.php 第 129 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000735s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = 'hustsoftware' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: UPDATE `wp_ucenter_member` SET `last_login_time`=1409486814,`last_login_ip`='3725867271' WHERE ( `id` = 363 ) [ RunTime:0.000171s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/www/test/weiphp/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000552s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `uid` = 363 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: UPDATE `wp_member` SET `login`=`login`+1,`last_login_time`=1409486814,`last_login_ip`='3725867271' WHERE ( `uid` = 363 ) [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: weiphp_home /home/www/test/weiphp/ThinkPHP/Common/functions.php 第 1113 行.
+SQL: SHOW COLUMNS FROM `wp_action` [ RunTime:0.000428s ]
+SQL: SELECT * FROM `wp_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000060s ]
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>快摇</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="/static/bootstrapv32/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+            var SHAKE_THRESHOLD = 3000;
+            var count = 0;
+            var count_time = 3;
+            var count_time1 = 10;
+            var last_update = 0;
+            var x = y = z = last_x = last_y = last_z = 0;
+            document.getElementById("start").click();
+            var countdown,countdown1;
+            var percent;
+            function init() {
+                if (window.DeviceMotionEvent) {
+                    window.addEventListener('devicemotion', deviceMotionHandler, false);
+                } else {
+                    alert('not support mobile event');
+                }
+            }
+            function start(){
+                countdown = setInterval(countNum,"1000");
+            }
+
+            function countNum(){
+                document.getElementById("time").innerHTML=count_time;
+                count_time = count_time - 1;
+                if(count_time<1){
+                    init();
+                    clearInterval(countdown);
+                    countdown1 = setInterval(countNum1,"1000");
+                }
+            }
+
+            function countNum1(){
+                document.getElementById("time").innerHTML=count_time1;
+                count_time1 =count_time1-1;
+                if(count_time1==0){
+                    clearInterval(countdown1);
+                    //完成
+		    alert("完成测量，你总共摇了"+count+"次");
+                }
+            }
+
+            function deviceMotionHandler(eventData) {
+                var acceleration = eventData.accelerationIncludingGravity;
+                var curTime = new Date().getTime();
+                if ((curTime - last_update) > 100) {
+                    var diffTime = curTime - last_update;
+                    last_update = curTime;
+                    x = acceleration.x;
+                    y = acceleration.y;
+                    z = acceleration.z;
+                    var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
+
+                    if (speed > SHAKE_THRESHOLD) {
+		                document.getElementById("num").innerHTML=count;
+                        count++;
+                    }
+                    last_x = x;
+                    last_y = y;
+                    last_z = z;
+                }
+            }
+        </script>
+</head>
+
+<body>
+   <div class="col-sm-offset-2 col-sm-10">
+         <button id="start" class="btn btn-default" onclick="start()">开始</button>
+   </div>
+   <div id="time"></div>
+   <div id="num"/>
+</body>
+
+</html>

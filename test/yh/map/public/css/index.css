@@ -1,0 +1,165 @@
+@media (min-width: 401px) {
+	html{
+		font-size: 20px;
+	}
+}
+@media (max-width: 400px) {
+	html{
+		font-size: 16px;
+	}
+}
+@media (max-width: 320px) {
+	html{
+		font-size: 14px;
+	}
+}
+
+
+html,
+body,
+article,
+section {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3;
+	font-family: Arial, 'Microsoft YaHei' , sans-serif;
+}
+body {
+	background: #e8e8e8
+}
+img {
+	border: 0;
+	font-size: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+}
+ul>li {
+	display: block;
+	float: left;
+}
+ul>li>a {
+	display: block;
+	height: 100%;
+}
+header> .header {
+	background: #f7b83a;
+	color: #fff;
+	text-align: center;
+	line-height: 3rem;
+}
+header> .header> h1{
+	margin: 0;
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+header> .header> .locate {
+	position:absolute;
+	left: 2%;
+	margin-left: 1%;
+}
+header> .header> .locate>.icon-location{
+	font-size: 1.2rem;
+}
+nav{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 2%;
+	padding-bottom: 0;
+}
+nav>ul{
+	line-height: 2.2;
+	display: block;
+	/*display: -webkit-box;*/ 
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
+	/*-webkit-box-pack: center;*/ 
+	-webkit-justify-content: center;
+			justify-content:center;
+	overflow: hidden;
+}
+nav>ul>li {
+	margin: 0;
+	-webkit-flex: 1;
+			flex: 1;
+	width: 33.3%;
+	box-sizing: border-box;
+	border: 1px solid #E8E8E8;
+	text-align: center;
+	background: #FFFFFF;
+}
+nav>ul>li>a{
+	color: #000;
+	/*font-weight: bold;*/
+}
+nav>ul>li[class~="active"]>a,
+nav>ul>li>a:hover {
+	background: #F7B83A;
+	color: #fff;
+}
+body > footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: .5rem 0;
+	background: #fff;
+	line-height: 3rem;
+}
+body > footer >a{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.5rem;;
+	background: #F7B83A;
+	border-radius: 1.5rem;
+	color: #FFFFFF;
+	width: 80%;
+}
+.stars{
+	width:9em;
+	display: inline-block;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-flex-flow: row nowrap;
+			flex-flow: row nowrap;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	
+	vertical-align: top;
+	color: #F7B83A;
+}
+.score {
+	font-size: .9rem;
+}
+.score> li {
+	width: 50%;
+}
+.label{
+	display: block;
+	padding: 0 .5rem;
+	box-sizing: border-box;
+	font-size: .75rem;
+	width: 3.5rem;
+	height: 1.5em;
+	line-height: 1.5em;
+	background: #f7b83a;
+	color: #000;
+}
+.s-title {
+	font-size: 1rem;
+	color: #F7B83A;
+	text-align: center;
+	padding: .8rem 1.2rem;
+	margin: 3% 2%;
+	margin-bottom: 0;
+	background: #FFFFFF;
+}

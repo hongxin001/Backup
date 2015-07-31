@@ -1,0 +1,90 @@
+
+<!--{subtemplate common/header}-->
+<!--{subtemplate common/hd_daohang}-->
+
+<div class="lt_bk">
+		<div class="lt_bk_lb">
+			<div class="tx">
+				<ul>
+					<li <!--{eval}-->if ($_GET['view'] !='online' && $_GET['view'] !='blacklist' &&$_GET['op'] != 'request'){ echo 'style="background:#0086ce"';} <!--{/eval}-->><a href="home.php?mod=space&do=friend"<!--{eval}-->if ($_GET['view'] !='online' && $_GET['view'] !='blacklist' &&$_GET['op'] != 'request'){ echo 'style="color:#fff;"';} <!--{/eval}-->>{echo $lang['mfriendall'];}</a></li>
+					<li <!--{if $_GET['view'] == 'online'}-->style="background:#0086ce" <!--{/if}-->>
+						<!--{if empty($_G['setting']['sessionclose'])}--><a href="home.php?mod=space&do=friend&view=online&type=friend"<!--{if $_GET['view'] == 'online'}-->style="color:#fff;"<!--{/if}-->> {echo $lang['mfriendol'];}</a><!--{/if}-->
+					</li>
+					<li <!--{if $_GET['view'] == 'blacklist'}-->style="background:#0086ce" <!--{/if}-->><a href="home.php?mod=space&do=friend&view=blacklist"<!--{if $_GET['view'] == 'blacklist'}-->style="color:#fff;" <!--{/if}-->>{echo $lang['mfriendbl'];}</a></li>
+					<li <!--{if $_GET['op'] == 'request'}-->style="background:#0086ce" <!--{/if}-->><a href="home.php?mod=spacecp&ac=friend&op=request"<!--{if $_GET['op'] == 'request'}-->style="color:#fff;" <!--{/if}-->>{echo $lang['mfriendrq'];}</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+
+			<!--{if $space[self]}-->
+				<!--{if $_GET['view']=='blacklist'}-->
+				<div class="hyhmd">
+					<form method="post" autocomplete="off" name="blackform" action="home.php?mod=spacecp&ac=friend&op=blacklist&start=$_GET[start]">
+						<span>{lang username}</span>
+						<span><input type="text" name="username" value="" size="15" /></span>
+                        <span><button type="submit" name="blacklistsubmit_btn" id="moodsubmit_btn" value="true">{lang add}</button>
+</span>
+						<input type="hidden" name="blacklistsubmit" value="true" />
+						<input type="hidden" name="formhash" value="{FORMHASH}" />
+					</form>
+				</div>
+				<!--{/if}-->
+			<!--{/if}-->
+
+						<!--{if $list}-->
+							<div class="lt_bk_fl">
+								<ul>
+								<!--{loop $list $key $value}-->
+									<li id="friend_{$value[uid]}_li">
+										<div class="lt_bk_logo">
+											<a href="home.php?mod=space&uid=$value[uid]&do=profile"><!--{avatar($value[uid],small)}--></a>
+										</div>
+										<div class="txcont">
+										<div class="txtime">$value[username]</div>
+											<span class="txfontblue">
+											<!--{if $value[uid] != $_G['uid'] && $value[username] != ''}-->
+												<a href="home.php?mod=space&uid=$value[uid]&do=profile"> {echo $lang['profilet'];}</a>
+											<!--{/if}-->
+											<!--{if !$value[isfriend] && $value[username] != ''}-->
+
+											<!--{elseif !in_array($_GET['view'], array('blacklist', 'visitor', 'trace', 'online'))}-->
+											<a href="home.php?mod=spacecp&ac=friend&op=changegroup&uid=$value[uid]&handlekey=editgrouphk_{$value[uid]}">{echo $lang['mfriendgroup'];}</a>
+											<a href="home.php?mod=spacecp&ac=friend&op=ignore&uid=$value[uid]&handlekey=delfriendhk_{$value[uid]}">{lang delete}</a>
+											<!--{/if}-->
+											</span>
+										</div>
+									</li>
+								<!--{/loop}-->
+								</ul>
+							</div>
+						<!--{if $multi}--><div class="pgbox">$multi</div><!--{/if}-->
+
+						<script type="text/javascript">
+							function succeedhandle_followmod(url, msg, values) {
+								var fObj = $(values['from']+values['fuid']);
+								if(values['type'] == 'add') {
+									fObj.innerHTML = '{lang follow_del}';
+									fObj.className = 'flw_btn_unfo';
+									fObj.href = 'home.php?mod=spacecp&ac=follow&op=del&fuid='+values['fuid']+'&from='+values['from'];
+								} else if(values['type'] == 'del') {
+									fObj.innerHTML = '{lang follow_add}TA';
+									fObj.className = 'flw_btn_fo';
+									fObj.href = 'home.php?mod=spacecp&ac=follow&op=add&hash={FORMHASH}&fuid='+values['fuid']+'&from='+values['from'];
+								}
+							}
+						</script>
+	</div>
+</div>
+			            <!--{else}-->
+
+				        <div class="tx_hyk">{lang count_member}</div>
+
+			            <!--{/if}-->
+
+
+<!--{subtemplate common/footer}-->
